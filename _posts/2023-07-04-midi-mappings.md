@@ -1,5 +1,5 @@
 ---
-title: "Rekordbox Midi Mappings - TRACK SEPARATION"
+title: "Rekordbox TRACK SEPARATION"
 date: 2023-07-04
 ---
 Like Serato Stems, Rekordbox has its own [TRACK SEPARATION](https://rekordbox.com/en/support/faq/trackseperation-6/#faq-q600181) function that divides a track into **Vocal**, **Drums**, and **INST** parts so the audio of each can be heard independently or in combinations of 2 or all 3 parts.
