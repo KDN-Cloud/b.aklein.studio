@@ -14,7 +14,7 @@ I made a couple of midi mappings to support Rekordbox TRACK SEPERATION also know
 
 With any supported [hardware unlock](https://rekordbox.com/en/support/hardware-unlock/) gear, the **MIDI** button will be available towards the top-right of Rekordbox. Click the **IMPORT** button and browse to the location where you saved the mapping file and select it. Done.
 
-Notice you will now have three new functions:
+Notice you will now have three new functions in the DECK tab:
 - **Active Part Drums**
 - **Active Part Inst**
 - **Active Part Vocal**
