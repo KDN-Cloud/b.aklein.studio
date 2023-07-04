@@ -4,6 +4,11 @@ date: 2023-07-04
 ---
 Like Serato Stems, Rekordbox has its own [TRACK SEPARATION](https://rekordbox.com/en/support/faq/trackseperation-6/#faq-q600181) function that divides a track into **Vocal**, **Drums**, and **INST** parts so the audio of each can be heard independently or in combinations of 2 or all 3 parts.
 
+## Enabling
+To enable the TRACK SEPARATION function, select the box, **Enable the TRACK SEPARATION Function** in **[Preferences] > [Extensions] > [TRACK SEPARATION]**.
+
+![Preferences](https://cdn.rekordbox.com/files/20230314163937/trackseparation_en.png)
+
 ## Midi Mappings
 I made a couple of midi mappings to support Rekordbox TRACK SEPERATION also known as Stems. Importing a midi mapping is fairly simple. To import, we need to be in Rekordbox **Performance** mode. 
 
