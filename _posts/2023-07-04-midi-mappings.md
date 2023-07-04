@@ -17,6 +17,6 @@ Notice you will now have three new functions:
 ![Import](https://raw.githubusercontent.com/KDN-Cloud/b.aklein.studio/main/attachments/rekordbox/rekordbox_midi_mappings.gif "Rekordbox Midi Mappings Import")
 
 ### Download
-Rekordbox mappings are just CSV files. Feel free to grab a Rekordbox mapping I have for Pioneer's **DDJ-FLX4** and AKAI'S **LPD8 MK2** pad controller.
+Rekordbox mappings are just CSV files. Feel free to grab a Rekordbox mapping I made for Pioneer's **DDJ-FLX4** and AKAI'S **LPD8 MK2** pad controller.
 
 <a href="https://github.com/KDN-Cloud/b.aklein.studio/tree/e47d3e597d4eff0d6e430ebfe0520dd397d1c406/attachments/rekordbox/midi-mappings">Rekordbox Midi Mapping</a>
