@@ -10,7 +10,7 @@ To enable the TRACK SEPARATION function, select the box, **Enable the TRACK SEPA
 ![Preferences](https://cdn.rekordbox.com/files/20230314163937/trackseparation_en.png)
 
 ## Midi Mappings
-I made a couple of midi mappings to support Rekordbox TRACK SEPERATION also known as Stems. Importing a midi mapping is fairly simple. To import, we need to be in Rekordbox **Performance** mode. 
+I made a couple of midi mappings to support Rekordbox TRACK SEPERATION commonly known as Stems. Importing a midi mapping is fairly simple. To import, we need to be in Rekordbox **Performance** mode. 
 
 With any supported [hardware unlock](https://rekordbox.com/en/support/hardware-unlock/) gear, the **MIDI** button will be available towards the top-right of Rekordbox. Click the **IMPORT** button and browse to the location where you saved the mapping file and select it. Done.
 
