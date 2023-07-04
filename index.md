@@ -1,7 +1,7 @@
 ---
-title: AK's Studio Blog
+title: AK's Music Blog
 author: Anthony Klein
-description: A blog to post random thoughts related to all things audio, studio, mixing and anything else that comes to mind.
+description: A music blog for all things about DJ'ing 🎧 and music 🎹 production.
 ---
 
 👋 Hello world
