@@ -1,5 +1,5 @@
 ---
-title: "Nostr, a simple protocol for decentralizing social media that has a chance of working"
+title: "Nostr, a simple protocol for decentralized social media"
 date: 2023-08-01
 ---
 I was recently introduced to a decentralized social network named <a href="https://nostr.com/" target="_blank">Nostr</a> as a very strong rival to Twitter. Nostr is the technology and one can use any number of Nostr apps. Authentication is handled with a public/private keypair that can be generated in different ways. I like using the <a href="https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp" target="_blank">nos2x browser extension</a> which allows you to sign Nostr events on web-apps without having to give them your keys.
