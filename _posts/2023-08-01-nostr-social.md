@@ -15,5 +15,5 @@ I will probably start posting my mixes on Nostr more. I am already thinking abou
 For now, you can check out either link below where I will post mixes and updates. Single posts will show up across the Nostr ecosystem regardless of app someone uses.
 
 ## My nostr socials
-* [Iris](https://iris.to/djaklein "My Iris social network page")
 * [Primal](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Primal social network page")
+* [Iris](https://iris.to/djaklein "My Iris social network page")
