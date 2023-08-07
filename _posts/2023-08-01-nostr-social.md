@@ -6,12 +6,12 @@ I was recently introduced to a decentralized social network named <a href="https
 
 There are many apps you can use. It seems Primal and Iris are some of the most popular apps that look similar to Twitter.
 
- Nostr apps: https://www.nostrapps.com/
+ Check out the list of <a href="https://www.nostrapps.com/" target="_blank">Nostr apps</a> and their respective categories.
 
 I will probably start posting my mixes on Nostr more. I am already thinking about closing my Twitter account since at the time of this writing those who aren't logged into Twitter can't even view posts.
 
 For now, you can check out either link below where I will post mixes and updates. Single posts will show up across the Nostr ecosystem regardless of app someone uses.
 
-## Nostr socials
-* Iris: https://iris.to/djaklein
-* Primal: https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w
+## My nostr socials
+* [Iris](https://iris.to/djaklein "My Iris social network page")
+* [Primal](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Primal social network page")
