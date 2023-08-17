@@ -8,7 +8,7 @@ Nostr is the _technology_ and one can use any number of Nostr _apps_ to post Twi
 
 There are many apps you can use. It seems **Primal** and **Snort** are some of the most popular apps. The interface is similar to Twitter.
 
- Check out the list of <a href="https://www.nostrapps.com/" target="_blank">Nostr apps</a> and their respective categories.
+ Check out the list of <a href="https://www.nostrapps.com/" target="_blank">Nostr apps</a> and their respective categories. The app <a href="https://nostr.watch/relays/find" target="_blank">nostr.watch</a> has a nice list of available relays.
 
 I will probably start posting my mixes on Nostr more. I am already thinking about closing my Twitter account since at the time of this writing those who aren't logged into Twitter can't even view posts.
 
