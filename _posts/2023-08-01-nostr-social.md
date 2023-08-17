@@ -18,3 +18,14 @@ For now, you can check out either link below where I will post mixes and updates
 * [Primal](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Primal social network page")
 * [Guru](https://www.nostr.guru/p/b7f87bb8b2528a4733ffdac2993f805732b8972353101a3a66efe9bcee4919c2 "My Nostr.Guru social network page")
 * [Snort](https://snort.social/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Snort social network page")
+
+## Nostr address NIP-05
+_What is Nostr addresses (NIP-05) for Nostr?_
+
+>"It's a human readable identifier for your public key. It makes finding your profile on Nostr easier. It makes identifying your account easier. A NIP-05 ID also provides you with a shiny verified checkmark!"
+
+My own verified **NIP-05** address: `aklein@nostrpurple.com`
+
+My Lightning (LN) address: ⚡ `aklein@getalby.com`
+
+Sharing link: https://nostrpurple.com/s/aklein
