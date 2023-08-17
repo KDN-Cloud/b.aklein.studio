@@ -28,4 +28,4 @@ My own verified **NIP-05** address: `aklein@nostrpurple.com`
 
 My Lightning (LN) address: ⚡ `aklein@getalby.com`
 
-Sharing link: https://nostrpurple.com/s/aklein
+Sharing link: [nostrpurple.com/s/aklein](https://nostrpurple.com/s/aklein)
