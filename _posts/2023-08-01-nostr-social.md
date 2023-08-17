@@ -14,9 +14,9 @@ I will probably start posting my mixes on Nostr more. I am already thinking abou
 
 For now, you can check out either link below where I will post mixes and updates. All posts will show up across the Nostr ecosystem regardless of app one uses.
 
-## My Nostr socials
-* [Primal](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Primal social network page")
+## My Nostr social apps
 * [Guru](https://www.nostr.guru/p/b7f87bb8b2528a4733ffdac2993f805732b8972353101a3a66efe9bcee4919c2 "My Nostr.Guru social network page")
+* [Primal](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Primal social network page")
 * [Snort](https://snort.social/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w "My Snort social network page")
 
 ## Nostr address NIP-05
@@ -26,6 +26,6 @@ _What is Nostr addresses (NIP-05) for Nostr?_
 
 My own verified **NIP-05** address: `aklein@nostrpurple.com`
 
-My Lightning (LN) address: ⚡ `aklein@getalby.com`
+My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 
-Sharing link: [nostrpurple.com/s/aklein](https://nostrpurple.com/s/aklein)
+**Sharing link**: [nostrpurple.com/s/aklein](https://nostrpurple.com/s/aklein)
