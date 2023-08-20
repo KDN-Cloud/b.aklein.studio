@@ -28,7 +28,7 @@ My own verified **NIP-05** address: `aklein@nostrpurple.com`
 
 My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 
-**Sharing link**: [nostrpurple.com/s/aklein](https://nostrpurple.com/s/aklein)
+**Sharing link**: <a href="https://nostrpurple.com/s/aklein" target="_blank">nostrpurple.com/s/aklein</a>
 
 ---
 
@@ -37,4 +37,4 @@ For fun I also deployed my own verified **NIP-05** address using a domain I own 
 
 My own verified **NIP-05** addresses using my domain: `aklein@nostr.aklein.me`, `ak@nostr.aklein.me`
 
-**Sharing link**: [nostr.aklein.me](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w/)
+**Sharing link**: <a href="https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w/" target="_blank">nostr.aklein.me</a>
