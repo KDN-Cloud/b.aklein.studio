@@ -34,7 +34,7 @@ My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 ---
 
 #### Nostr address NIP-05 with my own custom domain
-For fun I also deployed my own verified **NIP-05** address using a domain I own at `nostr.aklein.me` with <a href="https://github.com/KDN-Cloud/nip-05" target="_blank">GitHub Pages</a> so I don't need to host anything myself. The config is a basic <a href="https://nostr.aklein.me/.well-known/nostr.json" target="_blank">nostr.json</a> file. If someone visits <a href="https://nostr.aklein.me" target="_blank">nostr.aklein.me</a> it will redirect to my **Primal** page linked above.
+For fun I deployed my own verified **NIP-05** address using a domain I own at `nostr.aklein.me` with <a href="https://github.com/KDN-Cloud/nip-05" target="_blank">GitHub Pages</a> so I don't need to host anything myself. The config is a basic <a href="https://nostr.aklein.me/.well-known/nostr.json" target="_blank">nostr.json</a> file. If someone visits <a href="https://nostr.aklein.me" target="_blank">nostr.aklein.me</a> it will redirect to my **Primal** page linked above.
 
 My own verified **NIP-05** addresses using my domain: `aklein@nostr.aklein.me`, `ak@nostr.aklein.me`
 
