@@ -34,3 +34,5 @@ My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 For fun I also deployed my own verified **NIP-05** address using a domain I own at `nostr.aklein.me` with _GitHub Pages_ so I can use any profile name I wish. The config is a basic <a href="https://nostr.aklein.me/.well-known/nostr.json" target="_blank">nostr.json</a> file. If someone visits <a href="https://nostr.aklein.me" target="_blank">nostr.aklein.me</a> it will redirect to my **Primal** page linked above.
 
 My own verified **NIP-05** addresses using my domain: `aklein@nostr.aklein.me`, `ak@nostr.aklein.me`
+
+**Sharing link**: [nostr.aklein.me](https://primal.net/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w/)
