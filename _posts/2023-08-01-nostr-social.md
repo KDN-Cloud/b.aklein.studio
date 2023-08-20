@@ -29,3 +29,8 @@ My own verified **NIP-05** address: `aklein@nostrpurple.com`
 My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 
 **Sharing link**: [nostrpurple.com/s/aklein](https://nostrpurple.com/s/aklein)
+
+### Nostr address NIP-05 with my own custom domain
+For fun I also deployed my own verified **NIP-05** address using a domain I own at `nostr.aklein.me` with _GitHub Pages_ so I can use any profile name I wish. The config is a basic <a href="https://nostr.aklein.me/.well-known/nostr.json" target="_blank">nostr.json</a> file. If someone visits <a href="https://nostr.aklein.me" target="_blank">nostr.aklein.me</a> it will redirect to my **Primal** page linked above.
+
+My own verified **NIP-05** addresses using my domain: `aklein@nostr.aklein.me`, `ak@nostr.aklein.me`
