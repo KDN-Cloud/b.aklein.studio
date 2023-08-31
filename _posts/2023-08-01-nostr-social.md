@@ -38,6 +38,6 @@ For fun I deployed my own verified **NIP-05** address using a domain I own at `a
 
 My own verified **NIP-05** addresses using my domain: `aklein@aklein.pro`, `ak@aklein.pro`
 
-![NIP-05 verified](https://raw.githubusercontent.com/KDN-Cloud/b.aklein.studio/main/_posts/img/nip-05%20verified.png)
+![NIP-05 verified](https://raw.githubusercontent.com/KDN-Cloud/b.aklein.studio/main/_posts/img/NIP-05%20verified.png)
 
 **Sharing link**: <a href="https://snort.social/p/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w" target="_blank">aklein.pro</a>
