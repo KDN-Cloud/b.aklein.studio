@@ -12,7 +12,7 @@ There are many apps you can use. It seems **Snort** is one of the most popular a
 
 I will probably start posting my mixes on Nostr more. I am already thinking about closing my Twitter account since at the time of this writing those who aren't logged into Twitter can't even view posts.
 
-For now, you can check out either link below where I will post mixes and updates. All posts will show up across the Nostr ecosystem regardless of app one uses.
+For now you can check out my <a href="https://nostr.com/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w" target="_blank" alt="My nostr.com social page">nostr.com</a> social page or social apps linked below where I will post mixes and updates. All posts will show up across the Nostr ecosystem regardless of app one uses.
 
 ## My Nostr social apps
 * <a href="https://astral.ninja/npub1klu8hw9j229ywvllmtpfj0uq2uet39er2vgp5wnxal5memjfr8pqcflc2w" target="_blank" alt="My astral.ninja social page">Astral</a>
@@ -24,7 +24,7 @@ _What is Nostr addresses (NIP-05) for Nostr?_
 
 >"It's a human readable identifier for your public key. It makes finding your profile on Nostr easier. It makes identifying your account easier. A NIP-05 ID also provides you with a shiny verified checkmark!"
 
-My own verified **NIP-05** address: `aklein@nostrpurple.com`
+My first verified **NIP-05** address: `aklein@nostrpurple.com`
 
 My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 
@@ -33,9 +33,11 @@ My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 ---
 
 #### Nostr address NIP-05 with my own custom domain
-For fun I deployed my own verified **NIP-05** address using a domain I own at `aklein.pro` with <a href="https://github.com/KDN-Cloud/nip-05-2" target="_blank">GitHub Pages</a> so I don't need to host anything myself. The config is a basic <a href="https://aklein.pro/.well-known/nostr.json" target="_blank">nostr.json</a> file. Going to <a href="https://aklein.pro" target="_blank">aklein.pro</a> will redirect to my **Snort** page linked above.
+For fun I deployed my own verified **NIP-05** address using a domain I actually own at `aklein.pro` with <a href="https://github.com/KDN-Cloud/nip-05-2" target="_blank">GitHub Pages</a> so I don't need to host anything myself. The config is a basic <a href="https://aklein.pro/.well-known/nostr.json" target="_blank">nostr.json</a> file. Going to <a href="https://aklein.pro" target="_blank">aklein.pro</a> will redirect to my **Snort** page linked above.
 
 My own verified **NIP-05** addresses using my domain: `aklein@aklein.pro`, `ak@aklein.pro`
+
+My Lightning **(LN)** address: ⚡ `aklein@getalby.com`
 
 ![NIP-05 verified](https://raw.githubusercontent.com/KDN-Cloud/b.aklein.studio/main/_posts/img/NIP-05%20verified.png)
 
