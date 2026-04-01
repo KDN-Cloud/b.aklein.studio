@@ -1,17 +1,15 @@
-title:
+title: AK's Music
 author:
   name: AK
   email: github@aklein.pro
   github: KDN-Cloud
 
-description: >
-  Music notes and thoughts.
+description: Music notes and thoughts.
 
 url: https://b.aklein.studio
 repository: "KDN-Cloud/b.aklein.studio"
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -20,12 +18,7 @@ social:
   name: AK
   links: https://aklein.pro
 
-# https://github.com/jekyll/minima
-remote_theme: jekyll/minima@master
-minima:
-  skin: auto # auto, dark, light, solarized
-  social_links:
-    - { platform: github, user_url: "https://github.com/variablenix" }
+theme: jekyll-theme-midnight
 
 defaults:
   - scope:
