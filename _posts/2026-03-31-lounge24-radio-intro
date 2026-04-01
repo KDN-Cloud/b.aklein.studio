@@ -7,6 +7,8 @@ A while back I was running a fairly manual internet radio setup — Icecast2 and
 the heavy lifting, managed mostly from the command line. It worked, but it wasn't something 
 I'd call a platform.
 
+![The decks](https://raw.githubusercontent.com/KDN-Cloud/b.aklein.studio/main/_posts/img/lounge24-decks.jpg)
+
 That's changed. I've moved the whole operation over to [AzuraCast](https://www.azuracast.com/), 
 and it's been a significant upgrade. AzuraCast is a self-hosted web radio management platform 
 that still runs Icecast under the hood, but wraps it in everything you'd actually want — a 
