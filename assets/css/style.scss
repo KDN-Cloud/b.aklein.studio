@@ -9,16 +9,70 @@ body {
   color: #c9c5d0;
 }
 
-#main_content_wrap, #main_content,
-#header_wrap, #header,
-#footer_wrap, footer {
+#header_wrap {
+  background: #0d0d1a !important;
+  border-bottom: 1px solid #1a1a35;
+}
+
+#project_title {
+  font-family: 'Space Mono', monospace !important;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.05em;
+}
+
+#project_tagline {
+  font-family: 'Inter', sans-serif !important;
+  color: #4a4a6a !important;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#main_content_wrap, #main_content {
   background: #080810 !important;
   color: #c9c5d0;
 }
 
-.site-title a, h1, h2, h3 {
-  color: #e2dff0;
+#footer_wrap, footer {
+  background: #0d0d1a !important;
+  border-top: 1px solid #1a1a35;
+  color: #4a4a6a;
 }
 
 a { color: #a78bfa; }
 a:hover { color: #60a5fa; }
+
+#forkme_banner {
+  background: #1a1a35 !important;
+  color: #a78bfa !important;
+}
+
+.waveform {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 24px;
+  margin-top: 1.5rem;
+  opacity: 0.5;
+}
+
+.waveform span {
+  display: block;
+  width: 3px;
+  border-radius: 1px;
+  animation: wave 1.4s ease-in-out infinite alternate;
+}
+
+.waveform span:nth-child(3n+1) { background: #60a5fa; }
+.waveform span:nth-child(3n+2) { background: #a78bfa; }
+.waveform span:nth-child(3n)   { background: #f472b6; }
+.waveform span:nth-child(odd)  { animation-delay: 0.2s; }
+.waveform span:nth-child(3n)   { animation-delay: 0.5s; }
+
+@keyframes wave {
+  from { transform: scaleY(0.25); }
+  to   { transform: scaleY(1); }
+}
