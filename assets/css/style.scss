@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #080810;
+}
+
+.site-title a {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+a { color: #a78bfa; }
+a:hover { color: #60a5fa; }
