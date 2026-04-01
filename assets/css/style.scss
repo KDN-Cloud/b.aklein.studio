@@ -42,12 +42,47 @@ body {
   color: #4a4a6a;
 }
 
-a { color: #a78bfa; }
-a:hover { color: #60a5fa; }
-
 #forkme_banner {
   background: #1a1a35 !important;
   color: #a78bfa !important;
+}
+
+a {
+  color: #60a5fa;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #f472b6;
+  text-shadow: 0 0 8px rgba(244, 114, 182, 0.4);
+}
+
+a:visited {
+  color: #a78bfa;
+}
+
+ul li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #1a1a35;
+}
+
+ul li a {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.88rem;
+  flex: 1;
+}
+
+ul li em, ul li span {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  color: #4a4a6a;
+  letter-spacing: 0.08em;
+  margin-left: 1rem;
+  white-space: nowrap;
 }
 
 .waveform {
