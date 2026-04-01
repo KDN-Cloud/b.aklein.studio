@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <p style="font-family: 'Space Mono', monospace; font-size: 0.7rem; color: #4a4a6a; letter-spacing: 0.1em;">
+    {{ page.date | date: "%b %d, %Y" }}
+  </p>
+  <hr style="border-color: #1a1a35; margin: 1.5rem 0;">
+  {{ content }}
+</article>
