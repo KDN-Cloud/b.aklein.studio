@@ -1,15 +1,26 @@
 ---
 layout: default
-title: Tone's Music 🎵 Blog
-author: Anthony Klein
-description: A technical log documenting workflows in audio production, sound design, and underground DJ sets.
+title: "TONE // AUDIO_LOG"
 ---
 
-Welcome to the technical annex of Lounge24. This space serves as a dedicated log for my journey through audio production, DJing, and sound design. While my [main studio site](https://www.aklein.studio) serves as the command center, this blog is where I document the workflows and inspirations behind the music.
+Welcome to the digital annex of **Lounge24**. This space serves as a dedicated archive for my journey through underground DJing, audio production, and sound design. While my [main studio site](https://www.aklein.studio) is the central command center, this blog is where I document the inspirations and creative workflows behind the sound.
 
-This site is a lightweight, high-availability build hosted on GitHub Pages and powered by Jekyll, utilizing a GitOps-inspired workflow for rapid static deployment.
+---
+
+**Current Focus:**
+* **Selections:** Curated tracklists, Jungle, and Deep House sets.
+* **Studio:** Documentation of my journey into production and hardware.
+* **Underground:** Notes on culture, gear, and sonic inspiration.
+
+---
+
+### [ LATEST_TRANSMISSIONS ]
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) — <small>{{ post.date | date: "%b %d, %Y" }}</small>
 {% endfor %}
+
+
+---
+*This site is a lightweight, high-availability build hosted on **GitHub Pages** and powered by **Jekyll**, utilizing a GitOps-inspired workflow for rapid static deployment.*
 
