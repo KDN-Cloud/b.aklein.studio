@@ -121,3 +121,21 @@ ul li em, ul li span {
   transition: filter 0.2s ease;
 }
 
+
+/* --- GitHub Banner Customization --- */
+#forkme_banner {
+  background: #60a5fa !important; /* Electric Blue */
+  color: #ffffff !important;      /* White Text */
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: 0 0 10px rgba(96, 165, 250, 0.2);
+}
+
+#forkme_banner:hover {
+  background: #f472b6 !important; /* Transitions to Magenta/Pink */
+  color: #ffffff !important;      /* Stays White */
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
