@@ -3,34 +3,26 @@
 
 @import "{{ site.theme }}";
 
-body {
+/* 1. FORCE CORE BACKGROUND & TEXT */
+html, body, #main_content_wrap, #main_content {
+  background-color: #080810 !important;
+  color: #c9c5d0 !important;
   font-family: 'Inter', sans-serif;
-  background: #080810 !important;
-  color: #c9c5d0;
 }
 
-article h1 {
-  color: #a78bfa !important;
-  font-family: 'Space Mono', monospace;
-  letter-spacing: 0.03em;
+/* 2. FIX [ LATEST_TRANSMISSIONS ] AND ALL SUBHEADERS */
+/* We target 'article h3' specifically since that is your markdown '###' */
+article h1, article h2, article h3, article h4, 
+h1, h2, h3, h4 {
+  color: #a78bfa !important; /* Vibrant Purple/Magenta */
+  font-family: 'Space Mono', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  opacity: 1 !important;
+  display: block !important;
 }
 
-/*
-# gradient
-article h1 {
-  font-family: 'Space Mono', monospace;
-  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  letter-spacing: 0.03em;
-}
-*/
-
-article h2, article h3, article h4 {
-  color: #7c9fc9 !important;
-}
-
+/* 3. HEADER & PROJECT TITLE */
 #header_wrap {
   background: #0d0d1a !important;
   border-bottom: 1px solid #1a1a35;
@@ -46,44 +38,31 @@ article h2, article h3, article h4 {
 }
 
 #project_tagline {
-  font-family: 'Inter', sans-serif !important;
   color: #4a4a6a !important;
   font-size: 0.8rem;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-#main_content_wrap, #main_content {
-  background: #080810 !important;
-  color: #c9c5d0;
-}
-
-#footer_wrap, footer {
-  background: #0d0d1a !important;
-  border-top: 1px solid #1a1a35;
-  color: #4a4a6a;
-}
-
-#forkme_banner {
-  background: #1a1a35 !important;
-  color: #a78bfa !important;
-}
-
+/* 4. LINKS */
 a {
-  color: #60a5fa;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-a:visited {
-  color: #60a5fa;
+  color: #60a5fa !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #f472b6;
+  color: #f472b6 !important;
   text-shadow: 0 0 8px rgba(244, 114, 182, 0.4);
 }
 
+/* 5. DASHED LINE SEPARATOR */
+hr {
+  border: none !important;
+  border-top: 1px dashed #4a4a6a !important;
+  margin: 1.5rem 0 !important;
+  opacity: 0.5 !important;
+}
+
+/* 6. LIST STYLING */
 ul li {
   display: flex;
   align-items: baseline;
@@ -95,18 +74,15 @@ ul li {
 ul li a {
   font-family: 'Space Mono', monospace;
   font-size: 0.88rem;
-  flex: 1;
 }
 
 ul li em, ul li span {
   font-family: 'Space Mono', monospace;
   font-size: 0.7rem;
-  color: #4a4a6a;
-  letter-spacing: 0.08em;
-  margin-left: 1rem;
-  white-space: nowrap;
+  color: #4a4a6a !important;
 }
 
+/* 7. WAVEFORM ANIMATION */
 .waveform {
   display: flex;
   align-items: flex-end;
@@ -126,8 +102,6 @@ ul li em, ul li span {
 .waveform span:nth-child(3n+1) { background: #60a5fa; }
 .waveform span:nth-child(3n+2) { background: #a78bfa; }
 .waveform span:nth-child(3n)   { background: #f472b6; }
-.waveform span:nth-child(odd)  { animation-delay: 0.2s; }
-.waveform span:nth-child(3n)   { animation-delay: 0.5s; }
 
 @keyframes wave {
   from { transform: scaleY(0.25); }
