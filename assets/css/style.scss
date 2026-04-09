@@ -1,3 +1,6 @@
+---
+---
+
 @import "{{ site.theme }}";
 
 body {
@@ -12,13 +15,20 @@ article h1 {
   letter-spacing: 0.03em;
 }
 
-/* Brightened Headers to fix [ LATEST_TRANSMISSIONS ] visibility */
-article h2, article h3, article h4 {
-  color: #a78bfa !important;
+/*
+# gradient
+article h1 {
   font-family: 'Space Mono', monospace;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-top: 2rem;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.03em;
+}
+*/
+
+article h2, article h3, article h4 {
+  color: #7c9fc9 !important;
 }
 
 #header_wrap {
