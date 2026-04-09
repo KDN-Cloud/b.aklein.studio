@@ -1,5 +1,5 @@
 ---
-title: "The Socials"
+title: "Connections"
 date: 2023-07-05
 ---
 
