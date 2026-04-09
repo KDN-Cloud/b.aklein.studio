@@ -15,13 +15,20 @@ article h1 {
   letter-spacing: 0.03em;
 }
 
-/* Updated: Brightened subheaders for visibility on dark background */
-article h2, article h3, article h4 {
-  color: #a78bfa !important;
+/*
+# gradient
+article h1 {
   font-family: 'Space Mono', monospace;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  opacity: 1;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.03em;
+}
+*/
+
+article h2, article h3, article h4 {
+  color: #7c9fc9 !important;
 }
 
 #header_wrap {
@@ -75,14 +82,6 @@ a:visited {
 a:hover {
   color: #f472b6;
   text-shadow: 0 0 8px rgba(244, 114, 182, 0.4);
-}
-
-/* Horizontal Rule Styling for the dashed line */
-hr {
-  border: none;
-  border-top: 1px dashed #4a4a6a;
-  margin: 1.5rem 0;
-  opacity: 0.5;
 }
 
 ul li {
