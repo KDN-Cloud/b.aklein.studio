@@ -7,10 +7,11 @@ title: "TONE // AUDIO_LOG"
 
 ---
 
-**Current Focus:**
-* **Selections:** Curated tracklists, Jungle, and Deep House sets.
-* **Studio:** Documentation of my journey into production and hardware.
-* **Underground:** Notes on culture, gear, and sonic inspiration.
+| Category | Focus & Objectives |
+| :--- | :--- |
+| **Selections** | Curated tracklists, Jungle, and Deep House sets. |
+| **Studio** | Documentation of my journey into production and hardware. |
+| **Underground** | Notes on culture, gear, and sonic inspiration. |
 
 ---
 
