@@ -107,3 +107,17 @@ ul li em, ul li span {
   from { transform: scaleY(0.25); }
   to   { transform: scaleY(1); }
 }
+
+#project_title {
+  cursor: pointer;
+}
+
+#header_wrap a {
+  text-decoration: none !important;
+}
+
+#project_title:hover {
+  filter: brightness(1.1); /* Gives a subtle "lit up" effect when you hover to click */
+  transition: filter 0.2s ease;
+}
+
