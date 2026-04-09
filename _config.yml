@@ -1,10 +1,12 @@
-title: Tone's Music
+title: "TONE // AUDIO_LOG"
 author:
-  name: Tone (ak)
+  name: "Anthony Klein (Tone)"
   email: github@aklein.pro
   github: KDN-Cloud
 
-description: A technical annex of aklein.studio—documenting the intersection of music production and DJ culture.
+description: >
+  A digital B-side for track selections, underground DJ culture, 
+  and the journey through sound production.
 
 url: https://b.aklein.studio
 repository: "KDN-Cloud/b.aklein.studio"
