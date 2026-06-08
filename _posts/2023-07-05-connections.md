@@ -1,6 +1,20 @@
 ---
-title: "Connections"
+layout: post
+title: "Connections — Where to Find the Music"
 date: 2023-07-05
+author: Anthony Klein
+description: >
+  Links to where I post mixes, stream live sets, and share visual content —
+  SoundCloud, YouTube, Twitch, and Kick.
+tags:
+  - soundcloud
+  - youtube
+  - twitch
+  - kick
+  - restream
+  - live-streaming
+  - links
+  - dj
 ---
 
 Building an online presence as a DJ is something I've been putting real effort into lately. 

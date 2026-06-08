@@ -1,7 +1,24 @@
 ---
-title: "Rekordbox TRACK SEPARATION"
+layout: post
+title: "Rekordbox Track Separation and MIDI Mappings"
 date: 2023-07-04
+author: Anthony Klein
+description: >
+  How to enable Rekordbox Track Separation and import custom MIDI mappings
+  for the Pioneer DDJ-FLX4 and AKAI LPD8 MK2 pad controller.
+tags:
+  - rekordbox
+  - midi
+  - pioneer
+  - ddj-flx4
+  - akai
+  - lpd8
+  - stems
+  - track-separation
+  - dj
+  - performance
 ---
+
 Like Serato Stems, Rekordbox has its own [TRACK SEPARATION](https://rekordbox.com/en/support/faq/trackseperation-6/#faq-q600181) function that divides a track into **Vocal**, **Drums**, and **INST** parts so the audio of each can be heard independently or in combinations of 2 or all 3 parts.
 
 ## Enabling
