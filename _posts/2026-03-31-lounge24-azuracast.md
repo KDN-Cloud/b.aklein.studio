@@ -1,6 +1,22 @@
 ---
+layout: post
 title: "Lounge24 Radio — Powered by AzuraCast"
 date: 2026-03-31
+author: Anthony Klein
+description: >
+  Moving Lounge24 Radio from a manual Icecast2 and MPD setup to AzuraCast —
+  a self-hosted web radio management platform running in Docker with AutoDJ,
+  live DJ takeover, and listener statistics built in.
+tags:
+  - azuracast
+  - lounge24
+  - internet-radio
+  - docker
+  - self-hosted
+  - icecast
+  - homelab
+  - streaming
+  - autodj
 ---
 
 A while back I was running a fairly manual internet radio setup — Icecast2 and MPD doing 
