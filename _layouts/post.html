@@ -10,7 +10,19 @@ layout: default
   <h1>{{ page.title }}</h1>
   <p style="font-family: 'Space Mono', monospace; font-size: 0.7rem; color: #4a4a6a; letter-spacing: 0.1em;">
     {{ page.date | date: "%b %d, %Y" }}
+    {% if page.lastmod %}
+      &nbsp;·&nbsp;<em>updated {{ page.lastmod | date: "%b %d, %Y" }}</em>
+    {% endif %}
   </p>
   <hr style="border-color: #1a1a35; margin: 1.5rem 0;">
   {{ content }}
 </article>
+
+{% if page.tags %}
+  <p style="font-family: 'Space Mono', monospace; font-size: 0.7rem; color: #4a4a6a; letter-spacing: 0.1em; margin-top: 2rem;">
+    tags:
+    {% for tag in page.tags %}
+      <em>{{ tag }}</em>{% unless forloop.last %} &middot; {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
