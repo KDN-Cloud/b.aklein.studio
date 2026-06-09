@@ -19,12 +19,14 @@
     <div id="header_wrap" class="outer">
       <header class="inner">
         {% if site.github.is_project_page %}
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          <a id="forkme_banner" href="{{ site.github.repository_url }}" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.shields.io/badge/View%20on-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="View on GitHub" height="28">
+          </a>
         {% endif %}
 
         <div class="header-identity">
           <a class="site-logo" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
-            <img src="{{ "/assets/images/tone_logo_primary.png" | relative_url }}" alt="Tone Music Studio logo" width="72" height="72">
+            <img src="{{ "/assets/images/tone_logo_primary.png" | relative_url }}" alt="Tone Music Studio logo" width="86" height="86">
           </a>
           <div class="header-text">
             <h1 id="project_title">
@@ -71,11 +73,10 @@
     <a href="#" id="back-to-top" title="Back to top">&#8679;</a>
 
     <style>
-      /* Header identity: logo + title side by side */
       .header-identity {
         display: flex;
         align-items: center;
-        gap: 22px;
+        gap: 28px;
         margin-bottom: 14px;
       }
 
@@ -84,75 +85,10 @@
         flex-shrink: 0;
       }
 
-      .site-logo img {
-        width: 72px;
-        height: 72px;
-        object-fit: contain;
-        border-radius: 50%;
-        opacity: 0.92;
-        filter: drop-shadow(0 0 12px rgba(96, 165, 250, 0.35))
-                drop-shadow(0 0 16px rgba(255, 132, 31, 0.25));
-        transition: filter 0.25s ease, opacity 0.25s ease;
-      }
-
-      .site-logo img:hover {
-        opacity: 1;
-        filter: drop-shadow(0 0 16px rgba(96, 165, 250, 0.6))
-                drop-shadow(0 0 20px rgba(255, 132, 31, 0.45));
-      }
-
       .header-text {
         display: flex;
         flex-direction: column;
-        gap: 6px;
-      }
-
-      /* Title uses Rajdhani matching aklein.studio display font */
-      #project_title {
-        font-family: 'Rajdhani', sans-serif !important;
-        font-weight: 700 !important;
-        font-size: clamp(1.8rem, 5vw, 2.8rem) !important;
-        letter-spacing: 0.12em !important;
-        margin: 0 !important;
-        line-height: 1 !important;
-      }
-
-      #project_title a {
-        text-decoration: none !important;
-        -webkit-text-fill-color: unset !important;
-      }
-
-      /* TONE in blue gradient */
-      .title-tone {
-        background: linear-gradient(90deg, #60a5fa, #a78bfa);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-
-      /* // in green matching aklein.studio accent */
-      .title-sep {
-        color: #00cc44 !important;
-        -webkit-text-fill-color: #00cc44 !important;
-        letter-spacing: 0.08em;
-      }
-
-      /* AUDIO_LOG in lighter blue/white */
-      .title-log {
-        background: linear-gradient(90deg, #a78bfa, #f2f2f2);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-
-      #project_tagline {
-        font-family: 'Space Mono', monospace !important;
-        font-size: 0.72rem !important;
-        text-transform: uppercase !important;
-        letter-spacing: 0.16em !important;
-        color: #4a4a6a !important;
-        margin: 0 !important;
-        font-weight: 400 !important;
+        gap: 8px;
       }
 
       #back-to-top {
@@ -172,19 +108,6 @@
       }
       #back-to-top.visible { opacity: 1; }
       #back-to-top:hover { color: #00cc44; border-color: #00cc44; }
-
-      @media (max-width: 600px) {
-        .header-identity {
-          gap: 14px;
-        }
-        .site-logo img {
-          width: 56px;
-          height: 56px;
-        }
-        #project_title {
-          font-size: clamp(1.4rem, 7vw, 1.9rem) !important;
-        }
-      }
     </style>
 
     <script>
