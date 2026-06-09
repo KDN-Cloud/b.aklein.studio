@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     {% seo %}
 
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include google-analytics.html %}
-{% endif %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+      {% include google-analytics.html %}
+    {% endif %}
   </head>
 
   <body>
@@ -22,8 +22,17 @@
           <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
         {% endif %}
 
-        <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        <div class="header-identity">
+          <a class="site-logo" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
+            <img src="{{ "/assets/images/tone_logo_primary.png" | relative_url }}" alt="Tone Music Studio logo" width="56" height="56">
+          </a>
+          <div class="header-text">
+            <h1 id="project_title">
+              <a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+            </h1>
+            <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          </div>
+        </div>
 
         <div class="waveform">
           <span style="height:8px"></span><span style="height:15px"></span><span style="height:20px"></span>
@@ -58,6 +67,50 @@
     <a href="#" id="back-to-top" title="Back to top">&#8679;</a>
 
     <style>
+      /* Header identity: logo + title side by side */
+      .header-identity {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 12px;
+      }
+
+      .site-logo img {
+        width: 56px;
+        height: 56px;
+        object-fit: contain;
+        border-radius: 50%;
+        opacity: 0.92;
+        filter: drop-shadow(0 0 10px rgba(96, 165, 250, 0.3))
+                drop-shadow(0 0 14px rgba(255, 132, 31, 0.2));
+        transition: filter 0.25s ease, opacity 0.25s ease;
+      }
+
+      .site-logo img:hover {
+        opacity: 1;
+        filter: drop-shadow(0 0 14px rgba(96, 165, 250, 0.55))
+                drop-shadow(0 0 18px rgba(255, 132, 31, 0.4));
+      }
+
+      .site-logo {
+        text-decoration: none !important;
+        flex-shrink: 0;
+      }
+
+      .header-text {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      #project_title a {
+        background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-decoration: none !important;
+      }
+
       #back-to-top {
         position: fixed;
         bottom: 2rem;
@@ -75,6 +128,16 @@
       }
       #back-to-top.visible { opacity: 1; }
       #back-to-top:hover { color: #f472b6; border-color: #f472b6; }
+
+      @media (max-width: 480px) {
+        .header-identity {
+          gap: 12px;
+        }
+        .site-logo img {
+          width: 44px;
+          height: 44px;
+        }
+      }
     </style>
 
     <script>
