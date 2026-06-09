@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     {% seo %}
 
     {% if site.google_analytics and jekyll.environment == 'production' %}
@@ -24,11 +24,15 @@
 
         <div class="header-identity">
           <a class="site-logo" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
-            <img src="{{ "/assets/images/tone_logo_primary.png" | relative_url }}" alt="Tone Music Studio logo" width="56" height="56">
+            <img src="{{ "/assets/images/tone_logo_primary.png" | relative_url }}" alt="Tone Music Studio logo" width="72" height="72">
           </a>
           <div class="header-text">
             <h1 id="project_title">
-              <a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+              <a href="{{ "/" | relative_url }}">
+                <span class="title-tone">TONE</span>
+                <span class="title-sep"> // </span>
+                <span class="title-log">AUDIO_LOG</span>
+              </a>
             </h1>
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           </div>
@@ -71,25 +75,8 @@
       .header-identity {
         display: flex;
         align-items: center;
-        gap: 16px;
-        margin-bottom: 12px;
-      }
-
-      .site-logo img {
-        width: 56px;
-        height: 56px;
-        object-fit: contain;
-        border-radius: 50%;
-        opacity: 0.92;
-        filter: drop-shadow(0 0 10px rgba(96, 165, 250, 0.3))
-                drop-shadow(0 0 14px rgba(255, 132, 31, 0.2));
-        transition: filter 0.25s ease, opacity 0.25s ease;
-      }
-
-      .site-logo img:hover {
-        opacity: 1;
-        filter: drop-shadow(0 0 14px rgba(96, 165, 250, 0.55))
-                drop-shadow(0 0 18px rgba(255, 132, 31, 0.4));
+        gap: 22px;
+        margin-bottom: 14px;
       }
 
       .site-logo {
@@ -97,18 +84,75 @@
         flex-shrink: 0;
       }
 
+      .site-logo img {
+        width: 72px;
+        height: 72px;
+        object-fit: contain;
+        border-radius: 50%;
+        opacity: 0.92;
+        filter: drop-shadow(0 0 12px rgba(96, 165, 250, 0.35))
+                drop-shadow(0 0 16px rgba(255, 132, 31, 0.25));
+        transition: filter 0.25s ease, opacity 0.25s ease;
+      }
+
+      .site-logo img:hover {
+        opacity: 1;
+        filter: drop-shadow(0 0 16px rgba(96, 165, 250, 0.6))
+                drop-shadow(0 0 20px rgba(255, 132, 31, 0.45));
+      }
+
       .header-text {
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 6px;
+      }
+
+      /* Title uses Rajdhani matching aklein.studio display font */
+      #project_title {
+        font-family: 'Rajdhani', sans-serif !important;
+        font-weight: 700 !important;
+        font-size: clamp(1.8rem, 5vw, 2.8rem) !important;
+        letter-spacing: 0.12em !important;
+        margin: 0 !important;
+        line-height: 1 !important;
       }
 
       #project_title a {
-        background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+        text-decoration: none !important;
+        -webkit-text-fill-color: unset !important;
+      }
+
+      /* TONE in blue gradient */
+      .title-tone {
+        background: linear-gradient(90deg, #60a5fa, #a78bfa);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        text-decoration: none !important;
+      }
+
+      /* // in green matching aklein.studio accent */
+      .title-sep {
+        color: #00cc44 !important;
+        -webkit-text-fill-color: #00cc44 !important;
+        letter-spacing: 0.08em;
+      }
+
+      /* AUDIO_LOG in lighter blue/white */
+      .title-log {
+        background: linear-gradient(90deg, #a78bfa, #f2f2f2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      #project_tagline {
+        font-family: 'Space Mono', monospace !important;
+        font-size: 0.72rem !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.16em !important;
+        color: #4a4a6a !important;
+        margin: 0 !important;
+        font-weight: 400 !important;
       }
 
       #back-to-top {
@@ -127,15 +171,18 @@
         z-index: 999;
       }
       #back-to-top.visible { opacity: 1; }
-      #back-to-top:hover { color: #f472b6; border-color: #f472b6; }
+      #back-to-top:hover { color: #00cc44; border-color: #00cc44; }
 
-      @media (max-width: 480px) {
+      @media (max-width: 600px) {
         .header-identity {
-          gap: 12px;
+          gap: 14px;
         }
         .site-logo img {
-          width: 44px;
-          height: 44px;
+          width: 56px;
+          height: 56px;
+        }
+        #project_title {
+          font-size: clamp(1.4rem, 7vw, 1.9rem) !important;
         }
       }
     </style>
