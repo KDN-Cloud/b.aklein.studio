@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AKLEIN STUDIO - FROM GOOGLE SITES TO CLOUDFLARE PAGES"
+title: "Aklein Studio — From Google Sites to Cloudflare Pages"
 date: 2026-06-09
 author: Anthony Klein
 description: >
