@@ -6,6 +6,11 @@ author:
   email: github@aklein.pro
   github: KDN-Cloud
   url: "https://www.aklein.studio/"
+location:
+  name: "Las Vegas, Nevada, United States"
+  locality: "Las Vegas"
+  region: "Nevada"
+  country: "US"
 tagline: "A music studio log covering deep house, underground DJ culture, home studio gear, production experiments, Lounge24 Radio, and self-hosted audio infrastructure."
 logo: /assets/images/tone_logo_primary.png
 image: /assets/images/tone_logo_primary.png
