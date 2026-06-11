@@ -20,6 +20,8 @@ tags:
   - autodj
   - live-dj
   - radio-automation
+  - internet-radio-station
+  - listener-stats
 ---
 
 A while back I was running a fairly manual internet radio setup — Icecast2 and MPD doing 

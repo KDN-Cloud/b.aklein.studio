@@ -21,6 +21,8 @@ tags:
   - dj-controller
   - pad-controller
   - performance
+  - controllerism
+  - dj-workflow
 ---
 
 Like Serato Stems, Rekordbox has its own [TRACK SEPARATION](https://rekordbox.com/en/support/faq/trackseperation-6/#faq-q600181) function that divides a track into **Vocal**, **Drums**, and **INST** parts so the audio of each can be heard independently or in combinations of 2 or all 3 parts.
