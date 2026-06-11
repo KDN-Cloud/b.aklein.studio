@@ -386,16 +386,42 @@ pre, code {
   white-space: nowrap;
 }
 
-.footer-cursor {
-  display: inline-block;
-  margin-left: 2px;
-  color: #d4d0f0;
-  animation: footer-blink 1.1s step-start infinite;
+.footer-pulse {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 11px;
+  margin-left: 7px;
+  vertical-align: middle;
 }
 
-@keyframes footer-blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+.footer-pulse span {
+  display: block;
+  width: 3px;
+  border-radius: 2px 2px 0 0;
+  background: linear-gradient(180deg, #a78bfa, #60a5fa);
+  box-shadow: 0 0 6px rgba(167, 139, 250, 0.16);
+  animation: footer-pulse-bars 0.95s ease-in-out infinite alternate;
+}
+
+.footer-pulse span:nth-child(1) {
+  height: 5px;
+  animation-delay: 0s;
+}
+
+.footer-pulse span:nth-child(2) {
+  height: 10px;
+  animation-delay: 0.16s;
+}
+
+.footer-pulse span:nth-child(3) {
+  height: 7px;
+  animation-delay: 0.08s;
+}
+
+@keyframes footer-pulse-bars {
+  from { transform: scaleY(0.72); opacity: 0.72; }
+  to { transform: scaleY(1.08); opacity: 1; }
 }
 
 #footer_wrap p, #footer_wrap a {
