@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AKLEIN STUDIO — Built From Scratch on Cloudflare Pages"
+title: "AKLEIN STUDIO - FROM GOOGLE SITES TO CLOUDFLARE PAGES"
 date: 2026-06-09
 author: Anthony Klein
 description: >
