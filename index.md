@@ -21,7 +21,7 @@ keywords:
   - live streaming for DJs
 ---
 
-**Welcome** to the digital annex of **Lounge24**. This space serves as a dedicated archive for my journey through underground DJing, audio production, and sound design. While my [main studio site](https://www.aklein.studio) is the central command center, this archive is where I document the inspirations and creative workflows behind the sound.
+**Welcome** to the digital annex of **Lounge24**. This is where I keep the notes behind the music, the gear, the radio side, and the studio build as it keeps evolving. My <a href="https://www.aklein.studio" target="_blank" rel="noopener noreferrer">main studio site</a> is still home base, but this is the side room where I break down what is shaping the sound.
 
 ---
 
