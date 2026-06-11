@@ -11,12 +11,15 @@ tags:
   - azuracast
   - lounge24
   - internet-radio
+  - web-radio
   - docker
   - self-hosted
   - icecast
   - homelab
   - streaming
   - autodj
+  - live-dj
+  - radio-automation
 ---
 
 A while back I was running a fairly manual internet radio setup — Icecast2 and MPD doing 
