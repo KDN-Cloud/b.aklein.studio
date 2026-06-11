@@ -13,11 +13,16 @@ tags:
   - cloudflare-pages
   - cloudflare-workers
   - cloudflare-r2
+  - google-sites
+  - site-migration
   - static-site
   - aklein-studio
   - lounge24
   - deep-house
   - web-development
+  - custom-domain
+  - audio-player
+  - rss-feed
   - seo
   - schema
   - self-hosted

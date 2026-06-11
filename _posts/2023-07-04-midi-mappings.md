@@ -8,7 +8,9 @@ description: >
   for the Pioneer DDJ-FLX4 and AKAI LPD8 MK2 pad controller.
 tags:
   - rekordbox
+  - rekordbox-stems
   - midi
+  - midi-mapping
   - pioneer
   - ddj-flx4
   - akai
@@ -16,6 +18,8 @@ tags:
   - stems
   - track-separation
   - dj
+  - dj-controller
+  - pad-controller
   - performance
 ---
 

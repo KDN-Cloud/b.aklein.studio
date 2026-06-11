@@ -13,8 +13,11 @@ tags:
   - kick
   - restream
   - live-streaming
+  - dj-livestream
+  - dj-mixes
   - links
   - dj
+  - online-music-presence
 ---
 
 Building an online presence as a DJ is something I've been putting real effort into lately. 
