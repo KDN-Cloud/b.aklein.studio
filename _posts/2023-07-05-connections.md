@@ -18,6 +18,8 @@ tags:
   - links
   - dj
   - online-music-presence
+  - livestream-platforms
+  - soundcloud-mixes
 ---
 
 Building an online presence as a DJ is something I've been putting real effort into lately. 

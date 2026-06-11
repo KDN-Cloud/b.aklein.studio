@@ -26,6 +26,8 @@ tags:
   - seo
   - schema
   - self-hosted
+  - studio-website
+  - dj-site
 ---
 
 Google Sites had been the home of aklein.studio for longer than I care to admit. It was fine when I needed something up fast. A logo, some links, a few pages. It did the job but it was never really mine. The design was constrained by whatever Google decided was acceptable. The typography was not mine. The layout was not mine. I could not add a persistent audio player. I could not write custom CSS. I could not drop in a Cloudflare Worker to pull live RSS feeds. I could not do any of the things I actually wanted to do with a music and broadcast site.

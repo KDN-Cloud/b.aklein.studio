@@ -30,6 +30,8 @@ tags:
   - dj-booth
   - studio-monitoring
   - hybrid-studio
+  - production-workflow
+  - dj-workflow
 ---
 
 After years of accumulating gear and routing things ad hoc, I finally sat down and documented the full signal chain for the studio. This is the authoritative reference for how everything connects: production desk, DJ booth, monitoring, and the digital paths in between.

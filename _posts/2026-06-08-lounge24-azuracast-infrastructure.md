@@ -29,6 +29,8 @@ tags:
   - troubleshooting
   - broadcast
   - broadcast-infrastructure
+  - radio-server
+  - internet-radio-station
 ---
 
 The [previous post on Lounge24 Radio](/2026/03/31/lounge24-azuracast) covered the move from vanilla Icecast2 and MPD to AzuraCast. This is the deeper operational reference covering architecture, port routing, DNS, broadcaster connection settings, and the recovery procedures I've had to run.
