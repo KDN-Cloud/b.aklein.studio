@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    {% include head-custom.html %}
     {% seo %}
 
     {% if site.google_analytics and jekyll.environment == 'production' %}
@@ -75,16 +76,28 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
+        <hr class="content-divider" aria-hidden="true">
       </section>
     </div>
 
     <!-- FOOTER -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-          <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        <div class="footer-shell">
+          <nav class="footer-links" aria-label="Studio links">
+            <a class="footer-pill"
+               href="https://www.aklein.studio"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="aklein.studio - main studio uplink">
+              <span class="footer-icon" aria-hidden="true">&gt;</span>
+              <span>aklein.studio</span>
+            </a>
+          </nav>
+          <p class="footer-sig">
+            tone // lounge24 <span class="footer-cursor" aria-hidden="true">█</span>
+          </p>
+        </div>
       </footer>
     </div>
 
