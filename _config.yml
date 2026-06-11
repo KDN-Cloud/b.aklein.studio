@@ -6,7 +6,7 @@ author:
   email: github@aklein.pro
   github: KDN-Cloud
   url: "https://www.aklein.studio/"
-tagline: "A digital B-side for track selections, underground DJ culture, and the journey through sound production."
+tagline: "A music studio log covering deep house, underground DJ culture, home studio gear, production experiments, Lounge24 Radio, and self-hosted audio infrastructure."
 logo: /assets/images/tone_logo_primary.png
 image: /assets/images/tone_logo_primary.png
 keywords:
@@ -53,6 +53,7 @@ social:
     - https://github.com/KDN-Cloud
 
 twitter:
+  username: toneonthedecks
   card: summary_large_image
 
 seo:
