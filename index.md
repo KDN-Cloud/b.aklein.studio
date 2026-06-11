@@ -1,6 +1,24 @@
 ---
 layout: default
 title: "TONE // AUDIO_LOG"
+author: Anthony Klein
+description: A music studio log covering deep house, underground DJ culture, home studio gear, production experiments, Lounge24 Radio, and self-hosted audio infrastructure.
+keywords:
+  - deep house DJ
+  - underground electronic music
+  - jungle music
+  - music production workflows
+  - DJ workflows
+  - DJ studio setup
+  - home studio
+  - sound design
+  - internet radio
+  - self-hosted radio
+  - Lounge24
+  - AzuraCast
+  - Rekordbox
+  - Ableton
+  - live streaming for DJs
 ---
 
 **Welcome** to the digital annex of **Lounge24**. This space serves as a dedicated archive for my journey through underground DJing, audio production, and sound design. While my [main studio site](https://www.aklein.studio) is the central command center, this archive is where I document the inspirations and creative workflows behind the sound.
@@ -24,4 +42,3 @@ title: "TONE // AUDIO_LOG"
 
 ---
 *This site is a lightweight, high-availability build hosted on **GitHub Pages** and powered by **Jekyll**, utilizing a GitOps-inspired workflow for rapid static deployment.*
-
