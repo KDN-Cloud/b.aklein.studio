@@ -110,6 +110,32 @@
 
     <a href="#" id="back-to-top" title="Back to top">&#8679;</a>
 
+    <script>
+      (function () {
+        const links = document.querySelectorAll('#main_content a[href]');
+        if (!links.length) return;
+
+        links.forEach((link) => {
+          const href = link.getAttribute('href');
+          if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+            return;
+          }
+
+          let resolvedUrl;
+          try {
+            resolvedUrl = new URL(href, window.location.href);
+          } catch (error) {
+            return;
+          }
+
+          if (resolvedUrl.origin !== window.location.origin) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+          }
+        });
+      })();
+    </script>
+
     <style>
       /* ── Header identity ── */
       .header-identity {
