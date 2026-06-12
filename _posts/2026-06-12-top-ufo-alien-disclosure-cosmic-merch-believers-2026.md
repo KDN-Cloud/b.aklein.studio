@@ -44,7 +44,7 @@ This is for everyone who never needed the hearings to confirm what they already 
 
 Available on t-shirts, hoodies, posters, tapestries.
 
-**[→ Shop They Were Never Gone](https://merch.aklein.pro)**
+**[→ Shop They Were Never Gone](https://merch.aklein.pro/products/93440713-they-were-never-gone-t-shirt)**
 
 
 
@@ -58,7 +58,7 @@ They have been meeting. We just weren't invited until now.
 
 Available on t-shirts, hoodies, posters, tapestries.
 
-**[→ Shop The Council Convenes](https://merch.aklein.pro)**
+**[→ Shop The Council Convenes](https://merch.aklein.pro/products/93442949-the-council-convenes-t-shirt)**
 
 
 
@@ -70,7 +70,7 @@ Above the booth: a massive detailed UFO has opened its bay. The cosmos pours dow
 
 Available on t-shirts, hoodies, posters.
 
-**[→ Shop Galactic DJ](https://merch.aklein.pro)**
+**[→ Shop Galactic DJ](https://merch.aklein.pro/products/93990764-galactic-dj-t-shirt)**
 
 
 
@@ -84,7 +84,7 @@ For the frequency believers. For the ones who tune to 432 Hz and feel the differ
 
 Available on t-shirts, hoodies, mugs, posters.
 
-**[→ Shop The Cosmos DJs at 432 Hz](https://merch.aklein.pro)**
+**[→ Shop The Cosmos DJs at 432 Hz](https://merch.aklein.pro/products/93656583-the-cosmos-djs-at-432-hz-t-shirt)**
 
 
 
@@ -100,7 +100,7 @@ Not a question. Not a hope. A statement of absolute fact that predates every hea
 
 Available on t-shirts, hoodies, posters.
 
-**[→ Shop I Believe](https://merch.aklein.pro)**
+**[→ Shop I Believe](https://merch.aklein.pro/products/93509430-i-believe-and-i-always-have-t-shirt)**
 
 
 
@@ -112,7 +112,7 @@ You didn't look up at the clock by accident. You never do.
 
 Available on t-shirts, hoodies, posters, mugs.
 
-**[→ Shop 11:11 Make Your Wish](https://merch.aklein.pro)**
+**[→ Shop 11:11 Make Your Wish](https://merch.aklein.pro/?query=11%3A11)**
 
 
 
@@ -126,7 +126,7 @@ For the aligned. For the awakened. For the ones who keep seeing the numbers and 
 
 Available on t-shirts, hoodies, posters, tapestries.
 
-**[→ Shop 12:12](https://merch.aklein.pro)**
+**[→ Shop 12:12](https://merch.aklein.pro/products/93505251-12-12-you-are-exactly-where-you-need-to-be-t-shirt)**
 
 
 
@@ -155,7 +155,7 @@ Two versions currently live:
 
 Available on t-shirts, hoodies, posters, tapestries.
 
-**[→ Shop Chakra Designs](https://merch.aklein.pro)**
+**[→ Shop Chakra Designs](https://merch.aklein.pro/?query=chakra)**
 
 
 
