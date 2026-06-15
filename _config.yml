@@ -81,7 +81,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: studio_post
       author: Anthony Klein
 
 google_analytics: G-JMY38XHENQ

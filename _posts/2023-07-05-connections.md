@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 title: "Connections — Where to Find the Music"
 date: 2023-07-05
 author: Anthony Klein

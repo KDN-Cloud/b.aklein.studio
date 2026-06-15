@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 title: "Lounge24 Radio — Powered by AzuraCast"
 date: 2026-03-31
 author: Anthony Klein
