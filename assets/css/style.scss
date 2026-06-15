@@ -135,6 +135,45 @@ a:hover {
   text-decoration: none !important;
 }
 
+.post-actions {
+  margin: 0.45rem 0 1.1rem;
+}
+
+.post-share-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  border: 1px solid rgba(96, 165, 250, 0.18);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.08), rgba(167, 139, 250, 0.08));
+  color: #d4d0f0 !important;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.post-share-button:hover,
+.post-share-button:focus {
+  color: #ffffff !important;
+  border-color: rgba(96, 165, 250, 0.46);
+  box-shadow: 0 0 16px rgba(96, 165, 250, 0.1);
+  transform: translateY(-1px);
+}
+
+.post-share-button.is-done {
+  border-color: rgba(0, 204, 68, 0.42);
+  color: #d8ffd8 !important;
+}
+
+.post-share-icon {
+  display: inline-block;
+  color: #60a5fa;
+  font-weight: 700;
+}
+
 /* ── 5. HR SEPARATOR ── */
 hr {
   border: none !important;
