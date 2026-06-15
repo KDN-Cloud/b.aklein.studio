@@ -143,7 +143,7 @@ The full angel number collection is growing. Each number has its own distinct de
 
 Available on t-shirts, hoodies, posters, mugs.
 
-**[→ Browse all Angel Number designs](https://merch.aklein.pro)**
+**[→ Browse all Angel Number designs](https://merch.aklein.pro/?query=angel)**
 
 
 
