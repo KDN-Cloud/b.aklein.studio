@@ -54,8 +54,6 @@ excerpt: "Been living in Vegas long enough to know the tourist traps from the re
 image: /assets/images/posts/vegas-events.jpg
 ---
 
-# I've Lived in Vegas for Years — And Reddit Just Taught Me Where to Actually Find Events
-
 Look, I'll be real with you — living in Las Vegas as someone who actually *loves* music is a weird experience. The Strip exists in its own universe. It's flashy, it's expensive, and most of the time the "DJ" on the flyer is someone famous playing a 90-minute set of bangers for a crowd that's there for the spectacle, not the music.
 
 That's fine. That has its lane. But it's not my lane.
