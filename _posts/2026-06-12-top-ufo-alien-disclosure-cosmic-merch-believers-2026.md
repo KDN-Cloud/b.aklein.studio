@@ -2,7 +2,7 @@
 layout: studio_post
 toc: true
 promote_kleindrops: true
-title: "Top UFO, Alien Disclosure, and Cosmic Merch for Believers in 2026"
+title: "Best UFO and Cosmic Merch for Disclosure Believers in 2026"
 date: 2026-06-12
 tags:
   - ufo merch
