@@ -111,7 +111,7 @@
     <a href="#" id="back-to-top" title="Back to top">&#8679;</a>
 
     <script>
-      (function () {
+      document.addEventListener('DOMContentLoaded', function () {
         const tocBlocks = document.querySelectorAll('.post-toc[data-toc-root]');
         if (!tocBlocks.length) return;
 
@@ -136,8 +136,13 @@
           const list = toc.querySelector('.post-toc-list');
           if (!root || !list) return;
 
+          list.innerHTML = '';
+
           const headings = Array.from(root.querySelectorAll('h2'));
-          if (!headings.length) return;
+          if (!headings.length) {
+            toc.classList.add('is-empty');
+            return;
+          }
 
           headings.forEach((heading) => {
             if (!heading.id) {
@@ -156,9 +161,9 @@
             list.appendChild(item);
           });
 
-          toc.hidden = false;
+          toc.classList.remove('is-empty');
         });
-      })();
+      });
 
       (function () {
         const links = document.querySelectorAll('#main_content a[href]');

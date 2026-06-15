@@ -21,11 +21,10 @@ layout: default
   <div id="post-body" class="post-body">
     {{ content }}
   </div>
+  {% if page.promote_kleindrops %}
+    {% include kleindrops-callout.html %}
+  {% endif %}
 </article>
-
-{% if page.promote_kleindrops %}
-  {% include kleindrops-callout.html %}
-{% endif %}
 
 {% if page.tags %}
   <p style="font-family: 'Space Mono', monospace; font-size: 0.7rem; color: #4a4a6a; letter-spacing: 0.1em; margin-top: 2rem;">
