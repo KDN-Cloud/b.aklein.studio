@@ -112,52 +112,34 @@
 
     <script>
       (function () {
-        const tocBlocks = document.querySelectorAll('.post-toc[data-toc-root]');
-        if (tocBlocks.length) {
-          const slugCounts = new Map();
-          const slugify = (value) => {
-            const base = value
-              .toLowerCase()
-              .trim()
-              .replace(/[^a-z0-9\s-]/g, '')
-              .replace(/\s+/g, '-')
-              .replace(/-+/g, '-')
-              .replace(/^-|-$/g, '') || 'section';
+        const root = document.querySelector('#post-body');
+        if (!root) return;
 
-            const count = slugCounts.get(base) || 0;
-            slugCounts.set(base, count + 1);
-            return count ? `${base}-${count + 1}` : base;
-          };
+        const tocLinks = document.querySelectorAll('.post-toc-link[href^="#"]');
+        if (!tocLinks.length) return;
 
-          tocBlocks.forEach((toc) => {
-            const rootSelector = toc.getAttribute('data-toc-root');
-            const root = rootSelector ? document.querySelector(rootSelector) : null;
-            const list = toc.querySelector('.post-toc-list');
-            if (!root || !list) return;
+        const slugCounts = new Map();
+        const slugify = (value) => {
+          const base = value
+            .toLowerCase()
+            .trim()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .replace(/^-|-$/g, '') || 'section';
 
-            const headings = Array.from(root.querySelectorAll('h2'));
-            if (!headings.length) return;
+          const count = slugCounts.get(base) || 0;
+          slugCounts.set(base, count + 1);
+          return count ? `${base}-${count + 1}` : base;
+        };
 
-            headings.forEach((heading) => {
-              if (!heading.id) {
-                heading.id = slugify(heading.textContent || heading.innerText || 'section');
-              }
-
-              const item = document.createElement('li');
-              item.className = 'post-toc-item';
-
-              const link = document.createElement('a');
-              link.className = 'post-toc-link';
-              link.href = `#${heading.id}`;
-              link.textContent = heading.textContent;
-
-              item.appendChild(link);
-              list.appendChild(item);
-            });
-
-            toc.hidden = false;
-          });
-        }
+        const headings = Array.from(root.querySelectorAll('h2'));
+        headings.forEach((heading) => {
+          const desired = slugify(heading.textContent || heading.innerText || 'section');
+          if (!heading.id) {
+            heading.id = desired;
+          }
+        });
       })();
 
       (function () {
