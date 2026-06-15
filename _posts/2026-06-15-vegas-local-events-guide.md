@@ -20,8 +20,8 @@ tags:
   - las vegas music scene
   - house music vegas
   - deep house las vegas
-  - tech house las vegas
-  - underground las vegas
+  - underground house las vegas
+  - house heads las vegas
   - downtown las vegas
   - las vegas DJ
   - EDM las vegas
@@ -122,7 +122,7 @@ The afterhours culture here is real. When the Strip clubs wind down around 3-4 A
 
 ## What I Run: Lounge24 Radio
 
-Speaking of house music, I run my own 24/7 internet radio station called **Lounge24 Radio** out of here in Vegas. It's self-hosted, always running, and the core of it is still what I've been describing: deep house, soulful house, tech house, melodic electronic. That's the center of gravity. But you'll also hear older jungle mixes, jazz, lo-fi beats, trip-hop, and the occasional left turn into metal or classical when the mood is right. Mostly though, it's deep house, jungle, lo-fi, trip-hop, and jazz. The stuff I actually want to hear.
+Speaking of house music, I run my own 24/7 internet radio station called **Lounge24 Radio** out of here in Vegas. It's self-hosted, always running, and the core of it is still what I've been describing: deep house, soulful house, melodic electronic. That's the center of gravity. But you'll also hear older jungle mixes, jazz, lo-fi beats, trip-hop, and the occasional left turn into metal or classical when the mood is right. Mostly though, it's deep house, jungle, lo-fi, trip-hop, and jazz. The stuff I actually want to hear.
 
 You can tune in from the player on [aklein.studio](https://aklein.studio) or check out the mixes archive while you're there.
 
