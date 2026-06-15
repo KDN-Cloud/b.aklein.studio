@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 toc: true
 title: "Studio Master — Production Desk and DJ Booth Integration"
 date: 2026-06-07

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 toc: true
 promote_kleindrops: true
 title: "I've Lived in Vegas for Years and Reddit Just Taught Me Where to Actually Find Events"
@@ -98,7 +98,7 @@ DLVEC is Downtown, which already puts it in the right vibe. They've hosted Deadm
 
 This one is what I'd call *the* underground venue in Downtown Vegas right now. House, techno, tech-house. They run it late and they book both local legends and international artists. They've got a Danley sound system and a 60-foot LED wall, which sounds wild for a "small" venue, but somehow it works. It doesn't feel like a Strip club. It feels like a proper electronic music space.
 
-### 🌙 Terrace Afterhours
+### 🌙 [Terrace Afterhours](https://terraceafterhoursvegas.com/)
 
 If you've never done Terrace, let me set the scene: it's a rooftop space that opens at 2 AM. *Two in the morning.* The crowd that shows up at that hour isn't there by accident. They came for the deep house and techno, and they're staying until the sun is visible. The music leans toward deep house, tech house, and indie dance. It's the kind of spot where the later you stay, the better the set gets.
 
@@ -122,7 +122,7 @@ The afterhours culture here is real. When the Strip clubs wind down around 3-4 A
 
 ## What I Run: Lounge24 Radio
 
-Speaking of house music, I run my own 24/7 internet radio station called **Lounge24 Radio** out of here in Vegas. It's self-hosted, always running, and the vibe is exactly what I've been describing: deep house, soulful house, tech house, melodic electronic. The stuff I actually want to hear.
+Speaking of house music, I run my own 24/7 internet radio station called **Lounge24 Radio** out of here in Vegas. It's self-hosted, always running, and the core of it is still what I've been describing: deep house, soulful house, tech house, melodic electronic. That's the center of gravity. But you'll also hear older jungle mixes, jazz, lo-fi beats, trip-hop, and the occasional left turn into metal or classical when the mood is right. Mostly though, it's deep house, jungle, lo-fi, trip-hop, and jazz. The stuff I actually want to hear.
 
 You can tune in from the player on [aklein.studio](https://aklein.studio) or check out the mixes archive while you're there.
 

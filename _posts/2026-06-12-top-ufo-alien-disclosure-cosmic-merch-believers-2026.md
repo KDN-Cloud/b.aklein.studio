@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 toc: true
 promote_kleindrops: true
 title: "Top UFO, Alien Disclosure, and Cosmic Merch for Believers in 2026"

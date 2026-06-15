@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 toc: true
 title: "Lounge24 Radio - AzuraCast Infrastructure Deep Dive"
 date: 2026-06-08

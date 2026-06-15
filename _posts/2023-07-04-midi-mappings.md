@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: studio_post
 toc: true
 title: "Rekordbox Track Separation and MIDI Mappings"
 date: 2023-07-04
