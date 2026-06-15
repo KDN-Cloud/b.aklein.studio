@@ -159,6 +159,10 @@ hr {
   box-shadow: 0 0 20px rgba(96, 165, 250, 0.05);
 }
 
+.post-toc.is-empty {
+  display: none !important;
+}
+
 .post-toc-title {
   margin-bottom: 0.75rem;
   color: #60a5fa !important;
@@ -172,6 +176,14 @@ hr {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: block !important;
+}
+
+.post-toc-item {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
 }
 
 .post-toc-item + .post-toc-item {
@@ -188,6 +200,15 @@ hr {
   font-size: 0.84rem;
   letter-spacing: 0.04em;
   text-decoration: none !important;
+}
+
+.post-toc-list li,
+.post-toc-nav ul li {
+  display: block !important;
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+  padding: 0 !important;
+  border: 0 !important;
 }
 
 .post-toc-link::before {
@@ -308,6 +329,7 @@ pre, code {
 }
 
 .kleindrops-callout {
+  display: block;
   margin-top: 2.3rem;
   padding: 1.2rem 1.15rem 1.15rem;
   border: 1px solid rgba(167, 139, 250, 0.18);
