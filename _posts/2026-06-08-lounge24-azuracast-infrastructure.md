@@ -2,7 +2,6 @@
 layout: post
 toc: true
 title: "Lounge24 Radio - AzuraCast Infrastructure Deep Dive"
-promote_kleindrops: true
 date: 2026-06-08
 author: Anthony Klein
 description: >

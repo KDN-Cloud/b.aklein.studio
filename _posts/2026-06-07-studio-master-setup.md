@@ -1,5 +1,6 @@
 ---
 layout: post
+toc: true
 title: "Studio Master — Production Desk and DJ Booth Integration"
 date: 2026-06-07
 author: Anthony Klein

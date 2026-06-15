@@ -1,5 +1,6 @@
 ---
 layout: post
+toc: true
 title: "Rekordbox Track Separation and MIDI Mappings"
 date: 2023-07-04
 author: Anthony Klein
