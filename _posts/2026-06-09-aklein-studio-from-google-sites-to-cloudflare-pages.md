@@ -1,5 +1,6 @@
 ---
 layout: post
+toc: true
 title: "From Google Sites to Cloudflare Pages for the Studio"
 date: 2026-06-09
 author: Anthony Klein

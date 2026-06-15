@@ -150,6 +150,57 @@ hr {
   box-shadow: 0 0 12px rgba(0, 204, 68, 0.12);
 }
 
+.post-toc {
+  margin: 1.4rem 0 2rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(96, 165, 250, 0.14);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(17, 18, 32, 0.94), rgba(11, 11, 24, 0.98));
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.05);
+}
+
+.post-toc-title {
+  margin-bottom: 0.75rem;
+  color: #60a5fa !important;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.post-toc-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-toc-item + .post-toc-item {
+  margin-top: 0.35rem;
+}
+
+.post-toc-link,
+.post-toc-link:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #d4d0f0 !important;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+}
+
+.post-toc-link::before {
+  content: ">>";
+  color: #00cc44;
+}
+
+.post-toc-link:hover,
+.post-toc-link:focus {
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(167, 139, 250, 0.22);
+}
+
 /* ── 6. LIST STYLING ── */
 ul li {
   display: flex;
@@ -254,6 +305,113 @@ pre, code {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   font-style: normal;
+}
+
+.kleindrops-callout {
+  margin-top: 2.3rem;
+  padding: 1.2rem 1.15rem 1.15rem;
+  border: 1px solid rgba(167, 139, 250, 0.18);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top left, rgba(96, 165, 250, 0.08), transparent 42%),
+    radial-gradient(circle at top right, rgba(244, 114, 182, 0.08), transparent 36%),
+    linear-gradient(180deg, rgba(14, 14, 29, 0.96), rgba(10, 10, 21, 0.98));
+  box-shadow: 0 0 22px rgba(167, 139, 250, 0.06);
+}
+
+.kleindrops-copy {
+  margin: 0 0 0.95rem;
+  color: #bdb7d2 !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.kleindrops-pill,
+.kleindrops-pill:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(167, 139, 250, 0.28);
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.08), rgba(167, 139, 250, 0.08));
+  color: #f3f1ff !important;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-decoration: none !important;
+  position: relative;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.kleindrops-pill:hover,
+.kleindrops-pill:focus {
+  color: #ffffff !important;
+  border-color: rgba(96, 165, 250, 0.52);
+  box-shadow: 0 0 18px rgba(96, 165, 250, 0.12);
+  transform: translateY(-1px);
+}
+
+.kleindrops-pill::after {
+  content: attr(title);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 9px);
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(96, 165, 250, 0.16);
+  background: rgba(9, 12, 20, 0.96);
+  color: rgba(212, 208, 240, 0.86);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+
+.kleindrops-pill:hover::after,
+.kleindrops-pill:focus::after {
+  opacity: 1;
+}
+
+.kleindrops-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  height: 13px;
+}
+
+.kleindrops-icon span {
+  display: block;
+  width: 4px;
+  border-radius: 2px 2px 0 0;
+  background: linear-gradient(180deg, #60a5fa, #f472b6);
+  box-shadow: 0 0 7px rgba(96, 165, 250, 0.18);
+  animation: kleindrops-bars 1.1s ease-in-out infinite alternate;
+}
+
+.kleindrops-icon span:nth-child(1) {
+  height: 7px;
+  animation-delay: 0s;
+}
+
+.kleindrops-icon span:nth-child(2) {
+  height: 12px;
+  animation-delay: 0.16s;
+}
+
+.kleindrops-icon span:nth-child(3) {
+  height: 9px;
+  animation-delay: 0.08s;
+}
+
+@keyframes kleindrops-bars {
+  from { transform: scaleY(0.72); opacity: 0.84; }
+  to { transform: scaleY(1.08); opacity: 1; }
 }
 
 /* ── 11. FOOTER ── */
@@ -452,5 +610,19 @@ pre, code {
 
   .footer-pill::after {
     display: none;
+  }
+
+  .kleindrops-pill::after {
+    display: none;
+  }
+
+  .post-toc {
+    padding: 0.92rem 0.92rem 0.96rem;
+  }
+
+  .post-toc-link,
+  .post-toc-link:visited {
+    font-size: 0.78rem;
+    line-height: 1.45;
   }
 }
