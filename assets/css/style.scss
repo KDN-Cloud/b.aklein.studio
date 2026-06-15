@@ -137,6 +137,10 @@ a:hover {
 
 .post-actions {
   margin: 0.45rem 0 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .post-share-button {
@@ -168,10 +172,26 @@ a:hover {
   color: #d8ffd8 !important;
 }
 
+.post-share-button-reddit,
+.post-share-button-reddit:visited {
+  text-decoration: none !important;
+}
+
+.post-share-button-reddit:hover,
+.post-share-button-reddit:focus {
+  border-color: rgba(255, 132, 31, 0.46);
+  color: #fff2e8 !important;
+  box-shadow: 0 0 16px rgba(255, 132, 31, 0.12);
+}
+
 .post-share-icon {
   display: inline-block;
   color: #60a5fa;
   font-weight: 700;
+}
+
+.post-share-button-reddit .post-share-icon {
+  color: #ff841f;
 }
 
 /* ── 5. HR SEPARATOR ── */
