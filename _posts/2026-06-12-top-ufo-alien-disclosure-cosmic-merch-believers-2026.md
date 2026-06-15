@@ -149,11 +149,13 @@ Available on t-shirts, hoodies, posters, mugs.
 
 ## Chakra Art — Seven Centers. One Alignment.
 
-Two versions currently live:
+Three versions currently live:
 
 **Seven Chakras Mandala Meditation** — a seated figure in lotus position, silhouetted in deep indigo against an incredibly intricate mandala background in violet, electric purple, hot pink, and cyan. All seven chakra orbs glowing along the spine in their exact colors — root to crown.
 
 **As Above So Below — Chakra Cosmos** — the same figure but the cosmos is visible through the mandala geometry. Stars between the sacred patterns. The universe visible through the sacred geometry. The figure is made of the same stardust surrounding them. "AS ABOVE" curves at the top. "SO BELOW" curves at the bottom.
+
+**The Chakra Tree of Life** — a rooted tree rising through the full seven chakra color spectrum, grounded below and lit upward through the trunk and branches. More organic, more earth-connected, but still very much in the same spiritual frequency as the rest of the collection.
 
 Available on t-shirts, hoodies, posters, tapestries.
 
