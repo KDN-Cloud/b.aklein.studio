@@ -1,5 +1,7 @@
 ---
 layout: post
+toc: true
+promote_kleindrops: true
 title: "I've Lived in Vegas for Years — And Reddit Just Taught Me Where to Actually Find Events"
 date: 2026-06-15
 author: Tone
