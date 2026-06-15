@@ -98,7 +98,7 @@ DLVEC is Downtown, which already puts it in the right vibe. They've hosted Deadm
 
 This one is what I'd call *the* underground venue in Downtown Vegas right now. House, techno, tech-house. They run it late and they book both local legends and international artists. They've got a Danley sound system and a 60-foot LED wall, which sounds wild for a "small" venue, but somehow it works. It doesn't feel like a Strip club. It feels like a proper electronic music space.
 
-### 🌙 [Terrace Afterhours](https://terraceafterhoursvegas.com/)
+### 🌙 Terrace Afterhours - [terraceafterhoursvegas.com](https://terraceafterhoursvegas.com/)
 
 If you've never done Terrace, let me set the scene: it's a rooftop space that opens at 2 AM. *Two in the morning.* The crowd that shows up at that hour isn't there by accident. They came for the deep house and techno, and they're staying until the sun is visible. The music leans toward deep house, tech house, and indie dance. It's the kind of spot where the later you stay, the better the set gets.
 
