@@ -151,8 +151,8 @@ hr {
 }
 
 .post-toc {
-  margin: 1.4rem 0 2rem;
-  padding: 1rem 1.1rem;
+  margin: 1.35rem 0 2rem;
+  padding: 0.95rem 1rem;
   border: 1px solid rgba(96, 165, 250, 0.14);
   border-radius: 14px;
   background: linear-gradient(180deg, rgba(17, 18, 32, 0.94), rgba(11, 11, 24, 0.98));
@@ -317,6 +317,10 @@ pre, code {
     radial-gradient(circle at top right, rgba(244, 114, 182, 0.08), transparent 36%),
     linear-gradient(180deg, rgba(14, 14, 29, 0.96), rgba(10, 10, 21, 0.98));
   box-shadow: 0 0 22px rgba(167, 139, 250, 0.06);
+}
+
+article + .kleindrops-callout {
+  margin-bottom: 1.8rem;
 }
 
 .kleindrops-copy {
