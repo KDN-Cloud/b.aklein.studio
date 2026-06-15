@@ -51,6 +51,16 @@ tags:
   - las vegas community
   - best clubs las vegas
   - las vegas music blog
+  - las vegas afterhours guide
+  - vegas techno
+  - vegas underground scene
+  - las vegas techno clubs
+  - deep house events las vegas
+  - house music events las vegas
+  - las vegas event guide
+  - las vegas local music guide
+  - vegas dance music
+  - lounge24 las vegas
 description: "A Las Vegas local DJ's honest guide to finding house music, deep house, and EDM events in Vegas, from r/avegas to EDMtrain, Insomniac, Bauhaus LV, Terrace Afterhours, and DLVEC."
 excerpt: "Been living in Vegas long enough to know the tourist traps from the real stuff. Turns out I'd been sleeping on one of the best local resources out there, and it was on Reddit the whole time."
 image: /assets/images/posts/vegas-events.jpg

@@ -22,6 +22,13 @@ tags:
   - radio-automation
   - internet-radio-station
   - listener-stats
+  - self-hosted-radio
+  - online-radio
+  - icecast-streaming
+  - audio-streaming
+  - radio-infrastructure
+  - broadcast-automation
+  - lounge24-radio
 ---
 
 A while back I was running a fairly manual internet radio setup — Icecast2 and MPD doing 
