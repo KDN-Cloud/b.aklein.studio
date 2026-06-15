@@ -20,6 +20,13 @@ tags:
   - online-music-presence
   - livestream-platforms
   - soundcloud-mixes
+  - dj-online-presence
+  - music-links
+  - artist-links
+  - dj-branding
+  - live-dj-streaming
+  - music-content-platforms
+  - lounge24-radio
 ---
 
 Building an online presence as a DJ is something I've been putting real effort into lately. 
