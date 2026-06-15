@@ -2,7 +2,7 @@
 layout: studio_post
 toc: true
 promote_kleindrops: true
-title: "I've Lived in Vegas for Years and Reddit Just Taught Me Where to Actually Find Events"
+title: "Las Vegas House and Deep House Event Guide for Locals"
 date: 2026-06-15
 author: Tone
 categories: [music, las-vegas, events, house-music, deep-house]
