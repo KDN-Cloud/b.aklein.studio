@@ -1,5 +1,7 @@
 ---
 layout: post
+toc: true
+promote_kleindrops: true
 title: "Top UFO, Alien Disclosure, and Cosmic Merch for Believers in 2026"
 date: 2026-06-12
 tags:
@@ -164,7 +166,5 @@ Available on t-shirts, hoodies, posters, tapestries.
 There's more — Vinyl Solar System, DMT Breakthrough, Magic Mushroom Forest, Merkaba Activated, Starseed designs, house music culture pieces, and a growing lineup of cosmic and spiritual merch built for people who feel things deeply and want to wear that truth.
 
 Everything is print-on-demand — quality garments, worldwide shipping, no minimums.
-
-**[→ Browse the full Klein Drops store](https://merch.aklein.pro)**
 
 The disclosure generation deserves merch that matches the moment. We've been waiting a long time for the world to catch up. These designs were built for exactly that.
