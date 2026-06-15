@@ -14,6 +14,17 @@ layout: default
       &nbsp;·&nbsp;<em>updated {{ page.lastmod | date: "%b %d, %Y" }}</em>
     {% endif %}
   </p>
+  <div class="post-actions">
+    <button
+      type="button"
+      class="post-share-button"
+      data-share-button
+      data-share-title="{{ page.title | escape }}"
+      data-share-url="{{ page.url | absolute_url }}">
+      <span class="post-share-icon" aria-hidden="true">#</span>
+      <span class="post-share-label">Share</span>
+    </button>
+  </div>
   <hr style="border-color: #1a1a35; margin: 1.5rem 0;">
   {% if page.toc %}
     {% include post-toc.html %}
