@@ -48,7 +48,7 @@ layout: default
 </article>
 
 {% if page.tags %}
-  <p style="font-family: 'Space Mono', monospace; font-size: 0.7rem; color: #4a4a6a; letter-spacing: 0.1em; margin-top: 2rem;">
+  <p class="post-meta-tags">
     tags:
     {% for tag in page.tags %}
       <em>{{ tag }}</em>{% unless forloop.last %} &middot; {% endunless %}
