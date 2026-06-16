@@ -32,6 +32,8 @@ body,
   background: transparent !important;
   color: #f3f1ff !important;
   font-family: Inter, sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 label,
@@ -56,6 +58,7 @@ a[href*="cusdis.com"] {
   text-transform: uppercase !important;
   text-decoration: none !important;
   opacity: 0.78 !important;
+  white-space: nowrap !important;
 }
 
 a[href*="cusdis.com"]:hover {
@@ -105,19 +108,62 @@ button {
               if (!doc) return;
               const bodyHeight = doc.body ? doc.body.scrollHeight : 0;
               const docHeight = doc.documentElement ? doc.documentElement.scrollHeight : 0;
-              const nextHeight = Math.max(bodyHeight, docHeight, 360);
-              iframe.style.height = `${nextHeight + 8}px`;
+              const nextHeight = Math.max(bodyHeight, docHeight, 280);
+              iframe.style.height = `${nextHeight + 4}px`;
+            } catch (error) {
+              /* noop */
+            }
+          };
+
+          const normalizeLayout = () => {
+            try {
+              const doc = iframe.contentDocument;
+              if (!doc) return;
+
+              const powered = doc.querySelector('a[href*="cusdis.com"]');
+              const button = Array.from(doc.querySelectorAll('button')).find((el) =>
+                /comment/i.test((el.textContent || '').trim())
+              );
+
+              if (powered && button && !doc.getElementById('ak-cusdis-action-row')) {
+                const row = doc.createElement('div');
+                row.id = 'ak-cusdis-action-row';
+                row.style.display = 'flex';
+                row.style.alignItems = 'center';
+                row.style.justifyContent = 'space-between';
+                row.style.gap = '16px';
+                row.style.marginTop = '14px';
+                row.style.width = '100%';
+
+                const buttonParent = button.parentElement;
+                if (buttonParent) {
+                  buttonParent.parentNode.insertBefore(row, buttonParent);
+                  row.appendChild(buttonParent);
+                  row.appendChild(powered);
+                  buttonParent.style.margin = '0';
+                  powered.style.margin = '0';
+                }
+              }
+
+              const row = doc.getElementById('ak-cusdis-action-row');
+              if (row) {
+                row.style.marginBottom = '0';
+              }
             } catch (error) {
               /* noop */
             }
           };
 
           iframe.addEventListener("load", () => {
+            normalizeLayout();
             syncHeight();
             try {
               const doc = iframe.contentDocument;
               if (doc && doc.body && "ResizeObserver" in window) {
-                const ro = new ResizeObserver(() => syncHeight());
+                const ro = new ResizeObserver(() => {
+                  normalizeLayout();
+                  syncHeight();
+                });
                 ro.observe(doc.body);
                 if (doc.documentElement) ro.observe(doc.documentElement);
               }
@@ -127,12 +173,14 @@ button {
 
             let runs = 0;
             const interval = window.setInterval(() => {
+              normalizeLayout();
               syncHeight();
               runs += 1;
               if (runs > 20) window.clearInterval(interval);
             }, 400);
           }, { once: true });
 
+          normalizeLayout();
           window.requestAnimationFrame(syncHeight);
           window.setTimeout(syncHeight, 250);
           window.setTimeout(syncHeight, 900);
