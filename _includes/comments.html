@@ -48,6 +48,20 @@ a {
   color: #a78bfa !important;
 }
 
+a[href*="cusdis.com"] {
+  color: rgba(167, 139, 250, 0.9) !important;
+  font-family: 'Space Mono', monospace !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  opacity: 0.78 !important;
+}
+
+a[href*="cusdis.com"]:hover {
+  opacity: 1 !important;
+}
+
 input,
 textarea {
   background: #0b0b18 !important;
@@ -91,8 +105,8 @@ button {
               if (!doc) return;
               const bodyHeight = doc.body ? doc.body.scrollHeight : 0;
               const docHeight = doc.documentElement ? doc.documentElement.scrollHeight : 0;
-              const nextHeight = Math.max(bodyHeight, docHeight, 520);
-              iframe.style.height = `${nextHeight + 12}px`;
+              const nextHeight = Math.max(bodyHeight, docHeight, 360);
+              iframe.style.height = `${nextHeight + 8}px`;
             } catch (error) {
               /* noop */
             }
