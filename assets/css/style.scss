@@ -502,7 +502,7 @@ article + .kleindrops-callout {
 }
 
 .post-comments {
-  margin: 2.75rem 0 2.6rem;
+  margin: 2.75rem 0 4rem;
   padding-top: 1.35rem;
   border-top: 1px dashed rgba(96, 165, 250, 0.24);
 }
@@ -520,6 +520,12 @@ article + .kleindrops-callout {
 
 #cusdis_thread {
   margin-top: 1rem;
+  color: #d4d0f0 !important;
+}
+
+#cusdis_thread,
+#cusdis_thread * {
+  color: #d4d0f0 !important;
 }
 
 #cusdis_thread label,
@@ -532,32 +538,37 @@ article + .kleindrops-callout {
   letter-spacing: 0.04em;
 }
 
+#cusdis_thread input::placeholder,
+#cusdis_thread textarea::placeholder {
+  color: rgba(212, 208, 240, 0.52) !important;
+}
+
 #cusdis_thread input,
 #cusdis_thread textarea {
   width: 100%;
-  padding: 0.8rem 0.9rem !important;
+  padding: 0.72rem 0.85rem !important;
   border: 1px solid rgba(212, 208, 240, 0.72) !important;
   border-radius: 10px !important;
   background: #0b0b18 !important;
   color: #f3f1ff !important;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif !important;
-  font-size: 0.98rem !important;
-  line-height: 1.5 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.45 !important;
 }
 
 #cusdis_thread input {
-  min-height: 54px !important;
+  min-height: 48px !important;
 }
 
 #cusdis_thread textarea {
-  min-height: 132px !important;
+  min-height: 84px !important;
   resize: vertical;
 }
 
 #cusdis_thread button {
-  margin-top: 0.9rem !important;
-  padding: 0.72rem 1.3rem !important;
+  margin-top: 0.7rem !important;
+  padding: 0.68rem 1.2rem !important;
   border: 1px solid rgba(96, 165, 250, 0.24) !important;
   border-radius: 999px !important;
   background: linear-gradient(180deg, rgba(96, 165, 250, 0.12), rgba(167, 139, 250, 0.12)) !important;
@@ -581,7 +592,7 @@ article + .kleindrops-callout {
 }
 
 .post-meta-tags {
-  margin-top: 2.75rem;
+  margin-top: 4.5rem;
   color: #4a4a6a !important;
   font-family: 'Space Mono', monospace;
   font-size: 0.7rem;
