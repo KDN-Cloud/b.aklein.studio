@@ -75,8 +75,59 @@ button {
 }
 `;
 
+        const bindAutoHeight = (iframe) => {
+          if (!iframe || iframe.dataset.akAutoHeight === "true") return;
+          iframe.dataset.akAutoHeight = "true";
+          iframe.setAttribute("scrolling", "no");
+          iframe.style.width = "100%";
+          iframe.style.border = "0";
+          iframe.style.overflow = "hidden";
+          iframe.style.display = "block";
+          iframe.style.background = "transparent";
+
+          const syncHeight = () => {
+            try {
+              const doc = iframe.contentDocument;
+              if (!doc) return;
+              const bodyHeight = doc.body ? doc.body.scrollHeight : 0;
+              const docHeight = doc.documentElement ? doc.documentElement.scrollHeight : 0;
+              const nextHeight = Math.max(bodyHeight, docHeight, 520);
+              iframe.style.height = `${nextHeight + 12}px`;
+            } catch (error) {
+              /* noop */
+            }
+          };
+
+          iframe.addEventListener("load", () => {
+            syncHeight();
+            try {
+              const doc = iframe.contentDocument;
+              if (doc && doc.body && "ResizeObserver" in window) {
+                const ro = new ResizeObserver(() => syncHeight());
+                ro.observe(doc.body);
+                if (doc.documentElement) ro.observe(doc.documentElement);
+              }
+            } catch (error) {
+              /* noop */
+            }
+
+            let runs = 0;
+            const interval = window.setInterval(() => {
+              syncHeight();
+              runs += 1;
+              if (runs > 20) window.clearInterval(interval);
+            }, 400);
+          }, { once: true });
+
+          window.requestAnimationFrame(syncHeight);
+          window.setTimeout(syncHeight, 250);
+          window.setTimeout(syncHeight, 900);
+        };
+
         const patchIframe = (iframe) => {
-          if (!iframe || iframe.dataset.akPatched === "true") return;
+          if (!iframe) return;
+          bindAutoHeight(iframe);
+          if (iframe.dataset.akPatched === "true") return;
           if (!iframe.srcdoc || !iframe.srcdoc.includes("</style>")) return;
           iframe.srcdoc = iframe.srcdoc.replace("</style>", injectedStyles + "</style>");
           iframe.dataset.akPatched = "true";

@@ -523,6 +523,15 @@ article + .kleindrops-callout {
   color: #d4d0f0 !important;
 }
 
+#cusdis_thread iframe {
+  width: 100% !important;
+  min-height: 520px;
+  border: 0 !important;
+  background: transparent !important;
+  overflow: hidden !important;
+  display: block;
+}
+
 #cusdis_thread,
 #cusdis_thread * {
   color: #d4d0f0 !important;
@@ -592,7 +601,7 @@ article + .kleindrops-callout {
 }
 
 .post-meta-tags {
-  margin-top: 6rem;
+  margin-top: 7.5rem;
   color: #4a4a6a !important;
   font-family: 'Space Mono', monospace;
   font-size: 0.7rem;
