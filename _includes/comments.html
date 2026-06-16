@@ -117,19 +117,7 @@ button {
           iframe.style.overflow = "hidden";
           iframe.style.display = "block";
           iframe.style.background = "transparent";
-
-          const syncHeight = () => {
-            try {
-              const doc = iframe.contentDocument;
-              if (!doc) return;
-              const bodyHeight = doc.body ? doc.body.scrollHeight : 0;
-              const docHeight = doc.documentElement ? doc.documentElement.scrollHeight : 0;
-              const nextHeight = Math.max(bodyHeight, docHeight);
-              iframe.style.height = `${nextHeight + 2}px`;
-            } catch (error) {
-              /* noop */
-            }
-          };
+          iframe.style.height = "430px";
 
           const normalizeLayout = () => {
             try {
@@ -145,10 +133,10 @@ button {
                 const row = doc.createElement('div');
                 row.id = 'ak-cusdis-action-row';
                 row.style.display = 'flex';
+                row.style.flexDirection = 'column';
                 row.style.alignItems = 'center';
                 row.style.justifyContent = 'center';
-                row.style.flexWrap = 'wrap';
-                row.style.gap = '16px';
+                row.style.gap = '14px';
                 row.style.marginTop = '14px';
                 row.style.width = '100%';
 
@@ -159,12 +147,16 @@ button {
                   row.appendChild(powered);
                   buttonParent.style.margin = '0';
                   powered.style.margin = '0';
+                  buttonParent.style.display = 'flex';
+                  buttonParent.style.justifyContent = 'center';
+                  buttonParent.style.width = '100%';
                 }
               }
 
               const row = doc.getElementById('ak-cusdis-action-row');
               if (row) {
                 row.style.marginBottom = '0';
+                row.style.textAlign = 'center';
               }
             } catch (error) {
               /* noop */
@@ -173,34 +165,11 @@ button {
 
           iframe.addEventListener("load", () => {
             normalizeLayout();
-            syncHeight();
-            try {
-              const doc = iframe.contentDocument;
-              if (doc && doc.body && "ResizeObserver" in window) {
-                const ro = new ResizeObserver(() => {
-                  normalizeLayout();
-                  syncHeight();
-                });
-                ro.observe(doc.body);
-                if (doc.documentElement) ro.observe(doc.documentElement);
-              }
-            } catch (error) {
-              /* noop */
-            }
-
-            let runs = 0;
-            const interval = window.setInterval(() => {
-              normalizeLayout();
-              syncHeight();
-              runs += 1;
-              if (runs > 20) window.clearInterval(interval);
-            }, 400);
+            window.setTimeout(normalizeLayout, 250);
+            window.setTimeout(normalizeLayout, 900);
           }, { once: true });
 
           normalizeLayout();
-          window.requestAnimationFrame(syncHeight);
-          window.setTimeout(syncHeight, 250);
-          window.setTimeout(syncHeight, 900);
         };
 
         const patchIframe = (iframe) => {
