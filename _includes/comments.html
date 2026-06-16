@@ -129,6 +129,11 @@ button {
                 /comment/i.test((el.textContent || '').trim())
               );
 
+              doc.querySelectorAll('a[href]').forEach((link) => {
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer');
+              });
+
               if (powered && button && !doc.getElementById('ak-cusdis-action-row')) {
                 const row = doc.createElement('div');
                 row.id = 'ak-cusdis-action-row';
