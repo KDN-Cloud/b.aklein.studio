@@ -34,6 +34,22 @@ body,
   font-family: Inter, sans-serif !important;
   margin: 0 !important;
   padding: 0 !important;
+  min-height: 0 !important;
+}
+
+html {
+  background: transparent !important;
+  min-height: 0 !important;
+}
+
+body > *,
+main,
+section,
+article,
+form,
+#root,
+#app {
+  background: transparent !important;
 }
 
 label,
@@ -108,8 +124,8 @@ button {
               if (!doc) return;
               const bodyHeight = doc.body ? doc.body.scrollHeight : 0;
               const docHeight = doc.documentElement ? doc.documentElement.scrollHeight : 0;
-              const nextHeight = Math.max(bodyHeight, docHeight, 280);
-              iframe.style.height = `${nextHeight + 4}px`;
+              const nextHeight = Math.max(bodyHeight, docHeight);
+              iframe.style.height = `${nextHeight + 2}px`;
             } catch (error) {
               /* noop */
             }
@@ -130,7 +146,8 @@ button {
                 row.id = 'ak-cusdis-action-row';
                 row.style.display = 'flex';
                 row.style.alignItems = 'center';
-                row.style.justifyContent = 'space-between';
+                row.style.justifyContent = 'center';
+                row.style.flexWrap = 'wrap';
                 row.style.gap = '16px';
                 row.style.marginTop = '14px';
                 row.style.width = '100%';

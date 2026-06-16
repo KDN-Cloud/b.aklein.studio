@@ -525,7 +525,7 @@ article + .kleindrops-callout {
 
 #cusdis_thread iframe {
   width: 100% !important;
-  min-height: 280px;
+  min-height: 0 !important;
   border: 0 !important;
   background: transparent !important;
   overflow: hidden !important;
