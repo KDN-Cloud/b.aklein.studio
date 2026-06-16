@@ -502,7 +502,7 @@ article + .kleindrops-callout {
 }
 
 .post-comments {
-  margin: 2.75rem 0 1.5rem;
+  margin: 2.75rem 0 2.6rem;
   padding-top: 1.35rem;
   border-top: 1px dashed rgba(96, 165, 250, 0.24);
 }
@@ -516,6 +516,80 @@ article + .kleindrops-callout {
   color: rgba(201, 197, 208, 0.72) !important;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+#cusdis_thread {
+  margin-top: 1rem;
+}
+
+#cusdis_thread label,
+#cusdis_thread .label {
+  display: block;
+  margin-bottom: 0.45rem !important;
+  color: #d4d0f0 !important;
+  font-family: 'Space Mono', monospace !important;
+  font-size: 0.82rem !important;
+  letter-spacing: 0.04em;
+}
+
+#cusdis_thread input,
+#cusdis_thread textarea {
+  width: 100%;
+  padding: 0.8rem 0.9rem !important;
+  border: 1px solid rgba(212, 208, 240, 0.72) !important;
+  border-radius: 10px !important;
+  background: #0b0b18 !important;
+  color: #f3f1ff !important;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.98rem !important;
+  line-height: 1.5 !important;
+}
+
+#cusdis_thread input {
+  min-height: 54px !important;
+}
+
+#cusdis_thread textarea {
+  min-height: 132px !important;
+  resize: vertical;
+}
+
+#cusdis_thread button {
+  margin-top: 0.9rem !important;
+  padding: 0.72rem 1.3rem !important;
+  border: 1px solid rgba(96, 165, 250, 0.24) !important;
+  border-radius: 999px !important;
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.12), rgba(167, 139, 250, 0.12)) !important;
+  color: #f3f1ff !important;
+  font-family: 'Space Mono', monospace !important;
+  font-size: 0.8rem !important;
+  letter-spacing: 0.05em;
+  box-shadow: none !important;
+}
+
+#cusdis_thread button:hover,
+#cusdis_thread button:focus {
+  border-color: rgba(96, 165, 250, 0.5) !important;
+  color: #ffffff !important;
+}
+
+#cusdis_thread + script + noscript + *,
+#cusdis_thread .powered-by,
+#cusdis_thread [class*="powered"] {
+  margin-top: 1rem !important;
+}
+
+.post-meta-tags {
+  margin-top: 2.75rem;
+  color: #4a4a6a !important;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+}
+
+.post-meta-tags em {
+  color: inherit !important;
 }
 
 /* ── 11. FOOTER ── */
