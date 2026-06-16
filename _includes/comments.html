@@ -17,9 +17,87 @@
       data-page-id="{{ page.url }}"
       data-page-url="{{ page.url | absolute_url }}"
       data-page-title="{{ page.title | escape }}"
-      data-theme="{{ site.comments.theme | default: 'auto' }}"
+      data-theme="{{ site.comments.theme | default: 'dark' }}"
       data-lang="{{ site.comments.lang | default: 'en' }}"></div>
     <script async defer src="{{ site.comments.host | default: 'https://cusdis.com' }}/js/cusdis.es.js"></script>
+    <script>
+      (function () {
+        const root = document.getElementById("cusdis_thread");
+        if (!root) return;
+
+        const injectedStyles = `
+body,
+.dark,
+.light {
+  background: transparent !important;
+  color: #f3f1ff !important;
+  font-family: Inter, sans-serif !important;
+}
+
+label,
+span,
+p,
+div,
+small,
+strong,
+b {
+  color: #efeaff !important;
+}
+
+a {
+  color: #a78bfa !important;
+}
+
+input,
+textarea {
+  background: #0b0b18 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(212, 208, 240, 0.72) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(232, 228, 255, 0.62) !important;
+}
+
+button {
+  padding: 0.68rem 1.2rem !important;
+  border: 1px solid rgba(96, 165, 250, 0.24) !important;
+  border-radius: 999px !important;
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.12), rgba(167, 139, 250, 0.12)) !important;
+  color: #f3f1ff !important;
+  font-family: 'Space Mono', monospace !important;
+  font-size: 0.8rem !important;
+  letter-spacing: 0.05em !important;
+  box-shadow: none !important;
+}
+`;
+
+        const patchIframe = (iframe) => {
+          if (!iframe || iframe.dataset.akPatched === "true") return;
+          if (!iframe.srcdoc || !iframe.srcdoc.includes("</style>")) return;
+          iframe.srcdoc = iframe.srcdoc.replace("</style>", injectedStyles + "</style>");
+          iframe.dataset.akPatched = "true";
+        };
+
+        const existingFrame = root.querySelector("iframe");
+        if (existingFrame) patchIframe(existingFrame);
+
+        const observer = new MutationObserver((mutations) => {
+          mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+              if (node.tagName === "IFRAME") {
+                patchIframe(node);
+              }
+            });
+          });
+        });
+
+        observer.observe(root, { childList: true, subtree: true });
+      })();
+    </script>
     <noscript>
       <p class="post-comments-note">
         JavaScript is required to load comments.
