@@ -78,7 +78,7 @@ comments:
   enabled: true
   provider: cusdis
   host: https://cusdis.com
-  app_id: ""
+  app_id: "f4ae6671-2609-499d-81fb-3166d34e8123"
   theme: auto
   lang: en
 
